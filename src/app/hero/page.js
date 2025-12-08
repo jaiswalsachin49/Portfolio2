@@ -195,6 +195,27 @@ export default function Hero() {
 
     const [activeService, setActiveService] = useState("frontend");
     const [cursorText, setCursorText] = useState("");
+    const [activeSection, setActiveSection] = useState("home");
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        setActiveSection(entry.target.id);
+                    }
+                });
+            },
+            { threshold: 0.2, rootMargin: "-20% 0px -20% 0px" }
+        );
+
+        sidebarItems.forEach(({ id }) => {
+            const element = document.getElementById(id);
+            if (element) observer.observe(element);
+        });
+
+        return () => observer.disconnect();
+    }, []);
 
     const services = [
         {
@@ -283,7 +304,10 @@ export default function Hero() {
                         <button
                             key={id}
                             onClick={() => scrollToSection(id)}
-                            className="w-10 h-10 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 hover:scale-110 transition-all duration-300 relative group"
+                            className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 relative group ${activeSection === id
+                                    ? "bg-white text-black scale-110 shadow-[0_0_20px_rgba(255,255,255,0.3)]"
+                                    : "text-gray-400 hover:text-white hover:bg-white/10 hover:scale-110"
+                                }`}
                         >
                             <Icon size={18} />
                             <span className="absolute right-12 bg-black/80 px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
@@ -352,13 +376,13 @@ export default function Hero() {
                             ))}
                         </div>
                         <div className="flex items-center gap-5 mt-10">
-                            <button className="group flex items-center gap-3 pl-6 pr-2 py-2 rounded-full bg-white/10 border border-white/10 text-gray-200 font-medium text-xs transition-all hover:bg-white/20 backdrop-blur-md">
+                            <button className="group flex items-center gap-3 pl-6 pr-2 py-2 rounded-full bg-white/10 border border-white/10 text-gray-200 font-medium text-xs transition-all hover:bg-white/20 backdrop-blur-md" onClick={() => scrollIntoView("about")}>
                                 Get Started
                                 <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center transition-transform group-hover:rotate-45">
                                     <ArrowUpRight size={14} />
                                 </div>
                             </button>
-                            <button className="px-8 py-3 rounded-full border border-white/10 text-gray-400 font-medium text-xs hover:bg-white/5 hover:text-white transition-all backdrop-blur-sm">
+                            <button className="px-8 py-3 rounded-full border border-white/10 text-gray-400 font-medium text-xs hover:bg-white/5 hover:text-white transition-all backdrop-blur-sm" onClick={() => scrollIntoView("work")}>
                                 View My Work
                             </button>
                         </div>
