@@ -19,7 +19,18 @@ import {
     Monitor,
     Server,
     Smartphone,
-    Terminal
+    Terminal,
+    Quote,
+    Workflow,
+    Cpu,
+    Code2,
+    Layout,
+    Database,
+    Box,
+    Globe,
+    Check,
+    Plus,
+    Minus
 } from "lucide-react";
 
 export default function Hero() {
@@ -176,9 +187,12 @@ export default function Hero() {
     }, []);
 
     const scrollToSection = (id) => {
+        if (typeof window === "undefined") return;
         const element = document.getElementById(id);
-        if (element) {
+        if (element && typeof element.scrollIntoView === 'function') {
             element.scrollIntoView({ behavior: "smooth" });
+        } else {
+            console.warn(`Element with id '${id}' not found or scrollIntoView not supported.`);
         }
     };
 
@@ -186,6 +200,7 @@ export default function Hero() {
         { id: "home", label: "Home", Icon: Home },
         { id: "work", label: "Work", Icon: Briefcase },
         { id: "services", label: "Services", Icon: Sparkles },
+        { id: "tech", label: "Tech Stack", Icon: Cpu },
         { id: "about", label: "About", Icon: User },
         { id: "testimonial", label: "Testimonial", Icon: MessageSquareQuote },
         { id: "pricing", label: "Pricing", Icon: CreditCard },
@@ -196,6 +211,9 @@ export default function Hero() {
     const [activeService, setActiveService] = useState("frontend");
     const [cursorText, setCursorText] = useState("");
     const [activeSection, setActiveSection] = useState("home");
+    const [billingCycle, setBillingCycle] = useState("standard");
+    const [activeFAQ, setActiveFAQ] = useState(null);
+    const [selectedBudget, setSelectedBudget] = useState("< $1,000");
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -288,7 +306,7 @@ export default function Hero() {
     ];
 
     return (
-        <div className="relative w-full bg-black text-white font-sans selection:bg-orange-500/30 cursor-none">
+        <div className="relative w-full bg-black text-white font-sans selection:bg-orange-500/30">
             <div
                 ref={cursorRef}
                 className={`fixed rounded-full pointer-events-none z-[60] flex items-center justify-center text-black text-[10px] font-bold tracking-widest transition-all duration-300 ${cursorText ? "w-20 h-20 bg-white mix-blend-normal shadow-2xl scale-100" : "w-5 h-5 bg-white mix-blend-difference shadow-[0_0_10px_2px_rgba(255,255,255,0.3)]"
@@ -305,8 +323,8 @@ export default function Hero() {
                             key={id}
                             onClick={() => scrollToSection(id)}
                             className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 relative group ${activeSection === id
-                                    ? "bg-white text-black scale-110 shadow-[0_0_20px_rgba(255,255,255,0.3)]"
-                                    : "text-gray-400 hover:text-white hover:bg-white/10 hover:scale-110"
+                                ? "bg-white text-black scale-110 shadow-[0_0_20px_rgba(255,255,255,0.3)]"
+                                : "text-gray-400 hover:text-white hover:bg-white/10 hover:scale-110"
                                 }`}
                         >
                             <Icon size={18} />
@@ -331,9 +349,9 @@ export default function Hero() {
                     <div className="absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
                     <div className="absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
 
-                    <header className="w-full flex items-center justify-between px-8 py-8 border-b border-white/5">
+                    <header className="w-full flex items-center justify-between px-8 py-2 border-b border-white/5">
                         <div className="flex items-center gap-3">
-                            <span className="text-lg font-bold tracking-tight">Sachin</span>
+                            <img src="name.png" alt="logo" className="w-20 h-20 rounded-full object-cover"  />
                         </div>
                         <div className="hidden md:flex items-center gap-3 bg-black/60 border border-white/10 rounded-full pl-2 pr-4 py-1.5">
                             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
@@ -355,12 +373,12 @@ export default function Hero() {
                                 <img src="photo.png" alt="Sachin Jaiswal" className="w-full h-full object-cover grayscale-[0.2] contrast-125 transition-transform duration-700 group-hover:scale-105" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80" />
                             </div>
-                            <img src="name.png" alt="Signature" className="absolute -bottom-30 -rotate-5 left-1/2 -translate-x-1/2 w-[400px] z-20 pointer-events-none drop-shadow-2xl mix-blend-lighten opacity-90" />
+                            {/* <img src="name.png" alt="Signature" className="absolute -bottom-30 -rotate-5 left-1/2 -translate-x-1/2 w-[400px] z-20 pointer-events-none drop-shadow-2xl mix-blend-lighten opacity-90" /> */}
                         </div>
                         <div className="mt-18 text-center space-y-2 relative z-10">
                             <div className="flex flex-col items-center gap-1">
                                 <p className="text-gray-400 text-sm font-medium tracking-wide">Hi, I’m Sachin Jaiswal,</p>
-                                <p className="text-gray-500 text-sm font-normal tracking-wide">Working as Web-designer and Developer</p>
+                                <p className="text-gray-500 text-sm font-normal tracking-wide">Working as Full Stack Developer and Freelancer</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-4 mt-8">
@@ -376,13 +394,13 @@ export default function Hero() {
                             ))}
                         </div>
                         <div className="flex items-center gap-5 mt-10">
-                            <button className="group flex items-center gap-3 pl-6 pr-2 py-2 rounded-full bg-white/10 border border-white/10 text-gray-200 font-medium text-xs transition-all hover:bg-white/20 backdrop-blur-md" onClick={() => scrollIntoView("about")}>
+                            <button className="group flex items-center gap-3 pl-6 pr-2 py-2 rounded-full bg-white/10 border border-white/10 text-gray-200 font-medium text-xs transition-all hover:bg-white/20 backdrop-blur-md" onClick={() => scrollToSection("about")}>
                                 Get Started
                                 <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center transition-transform group-hover:rotate-45">
                                     <ArrowUpRight size={14} />
                                 </div>
                             </button>
-                            <button className="px-8 py-3 rounded-full border border-white/10 text-gray-400 font-medium text-xs hover:bg-white/5 hover:text-white transition-all backdrop-blur-sm" onClick={() => scrollIntoView("work")}>
+                            <button className="px-8 py-3 rounded-full border border-white/10 text-gray-400 font-medium text-xs hover:bg-white/5 hover:text-white transition-all backdrop-blur-sm" onClick={() => scrollToSection("work")}>
                                 View My Work
                             </button>
                         </div>
@@ -496,6 +514,46 @@ export default function Hero() {
                 </div>
             </section>
 
+
+            <section id="tech" className="w-full flex justify-center bg-black border-b border-white/10">
+                <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[50vh] flex flex-col p-10 md:p-20">
+                    <div className="absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+
+                    <div className="flex items-center gap-4 mb-20">
+                        <div className="w-12 h-1 bg-blue-500 rounded-full" />
+                        <h2 className="text-3xl md:text-5xl font-light text-white">Tech Stack</h2>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+                        {[
+                            { name: "C++", desc: "System Logic", Icon: Code2 },
+                            { name: "Tailwind", desc: "Styling Engine", Icon: Layout },
+                            { name: "Express", desc: "Backend API", Icon: Server },
+                            { name: "MongoDB", desc: "NoSQL DB", Icon: Database },
+                            { name: "Python", desc: "Data & AI", Icon: Terminal },
+                            { name: "JavaScript", desc: "Interactivity", Icon: Code2 },
+                            { name: "Postman", desc: "API Testing", Icon: Box },
+                            { name: "Next.js", desc: "React Framework", Icon: Globe },
+                            { name: "React", desc: "UI Library", Icon: Workflow },
+                            { name: "MySQL", desc: "Relational DB", Icon: Database },
+                        ].map((tech, i) => (
+                            <div key={i} className="group relative p-6 bg-zinc-900 border border-white/5 rounded-3xl flex flex-col items-center text-center hover:border-blue-500/50 transition-colors duration-500 hover:-translate-y-1">
+                                <span className="text-white font-medium tracking-wide mb-6">{tech.name}</span>
+
+                                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center mb-6 border border-white/5 group-hover:border-blue-500/30 group-hover:shadow-[0_0_30px_-5px_rgba(59,130,246,0.3)] transition-all duration-500">
+                                    <tech.Icon size={32} className="text-gray-400 group-hover:text-blue-500 transition-colors duration-500" />
+                                </div>
+
+                                <span className="text-xs text-gray-500 font-mono">{tech.desc}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* ABOUT SECTION */}
             <section id="about" className="w-full flex justify-center bg-zinc-950 border-b border-white/10">
                 <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[60vh] flex flex-col p-10 md:p-20">
@@ -539,28 +597,252 @@ export default function Hero() {
                 </div>
             </section>
 
-            {/* REUSABLE SECTION COMPONENT for Others */}
-            {[
-                { id: "testimonial", title: "Client Stories", bg: "bg-black" },
-                { id: "pricing", title: "Pricing Plans", bg: "bg-zinc-950" },
-                { id: "faq", title: "Common Questions", bg: "bg-black" },
-                { id: "contact", title: "Let's Talk", bg: "bg-zinc-950" },
-            ].map((section) => (
-                <section key={section.id} id={section.id} className={`w-full flex justify-center border-b border-white/10 ${section.bg}`}>
-                    <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[50vh] flex flex-col p-10 md:p-20">
-                        <div className="absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
-                        <div className="absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
-                        <div className="absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
-                        <div className="absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
-
-                        <h2 className="text-4xl md:text-5xl font-light mb-8 opacity-90">{section.title}</h2>
-                        <div className="w-20 h-1 bg-orange-500 mb-8" />
-                        <p className="text-gray-400 max-w-lg leading-relaxed">
-                            Content for {section.title} will go here. This layout maintains the continuous vertical grid lines from the hero section down to the footer.
-                        </p>
+            {/* TESTIMONIALS SECTION (Vertical Marquee) */}
+            <section id="testimonial" className="w-full flex justify-center bg-black border-b border-white/10">
+                <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[60vh] flex flex-col p-10 md:p-20 overflow-hidden">
+                    <div className="flex items-center gap-4 mb-20">
+                        <div className="w-12 h-1 bg-green-500 rounded-full" />
+                        <h2 className="text-3xl md:text-5xl font-light text-white">Friends Say</h2>
                     </div>
-                </section>
-            ))}
+
+                    <div className="relative w-full h-[400px] overflow-hidden mask-linear-gradient">
+                        {/* Gradient Masks */}
+                        <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-black to-transparent z-10" />
+                        <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black to-transparent z-10" />
+
+                        <div className="animate-scroll-y flex flex-col gap-8">
+                            {[
+                                { name: "Kushal", text: "Sachin is one of the most dedicated people I know. His ability to turn complex logic into smooth applications is just inspiring. Always there to help!", role: "Developer & Friend" },
+                                { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Designer & Friend" },
+                                { name: "Kushal", text: "Sachin is one of the most dedicated people I know. His ability to turn complex logic into smooth applications is just inspiring. Always there to help!", role: "Developer & Friend" },
+                                { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Designer & Friend" },
+                            ].map((review, i) => (
+                                <div key={i} className="relative p-8 md:p-10 rounded-[2rem] bg-zinc-900 border border-white/5 overflow-hidden group hover:border-orange-500/30 transition-colors duration-500">
+                                    <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-orange-600/20 blur-[80px] rounded-full group-hover:bg-orange-600/30 transition-all duration-700" />
+
+                                    <Quote className="absolute bottom-4 left-6 text-white/5 w-24 h-24 rotate-12" />
+
+                                    <div className="relative z-10 flex flex-col gap-6">
+                                        <div className="flex items-center gap-2 mb-2">
+                                            <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
+                                            <span className="text-xs uppercase tracking-widest text-white/40 font-medium">Testimonial</span>
+                                        </div>
+
+                                        <p className="text-xl md:text-2xl text-gray-200 font-light leading-relaxed">
+                                            "{review.text}"
+                                        </p>
+
+                                        <div className="mt-4 flex items-center justify-end">
+                                            <div className="flex items-center gap-4 bg-white/5 pl-2 pr-6 py-2 rounded-full border border-white/5 backdrop-blur-md">
+                                                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-zinc-700 to-black flex items-center justify-center text-orange-500 font-bold border border-white/10">
+                                                    {review.name[0]}
+                                                </div>
+                                                <div className="text-right">
+                                                    <h4 className="text-white text-sm font-medium leading-tight">{review.name}</h4>
+                                                    <span className="text-[10px] text-gray-500 uppercase tracking-wider">{review.role}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* PRICING SECTION */}
+            <section id="pricing" className="w-full flex justify-center bg-zinc-950 border-b border-white/10">
+                <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[80vh] flex flex-col items-center p-10 md:p-20">
+                
+                    <div className="absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+
+                    <h2 className="text-4xl md:text-6xl font-normal text-white mb-10 text-center">My Pricing</h2>
+
+                    <div className="flex items-center bg-zinc-900 border border-white/10 rounded-full p-1 mb-16 relative">
+                        <button
+                            onClick={() => setBillingCycle("standard")}
+                            className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 relative z-10 ${billingCycle === "standard" ? "text-white" : "text-gray-500 hover:text-gray-300"}`}
+                        >
+                            Standard
+                        </button>
+                        <button
+                            onClick={() => setBillingCycle("premium")}
+                            className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 relative z-10 ${billingCycle === "premium" ? "text-white" : "text-gray-500 hover:text-gray-300"}`}
+                        >
+                            Premium
+                        </button>
+
+                        <div className={`absolute top-1 bottom-1 w-[calc(50%-4px)] bg-zinc-800 rounded-full transition-all duration-300 ${billingCycle === "standard" ? "left-1" : "left-[calc(50%+4px)]"}`} />
+                    </div>
+
+                    <div className="w-full max-w-lg bg-zinc-900 border border-white/10 rounded-[2rem] p-2 overflow-hidden relative group hover:border-white/20 transition-colors">
+                        <div className="absolute top-0 left-0 right-0 h-40 bg-gradient-to-b from-orange-900/20 to-transparent opacity-50" />
+
+                        <div className="bg-black/40 rounded-[1.5rem] p-8 md:p-10 relative z-10 h-full flex flex-col">
+                            <div className="mb-8">
+                                <div className="flex items-center gap-3 mb-2">
+                                    <div className={`w-2 h-2 rounded-full ${billingCycle === "standard" ? "bg-white" : "bg-orange-500"}`} />
+                                    <span className="text-sm text-gray-400 uppercase tracking-widest">{billingCycle === "standard" ? "Standard Plan" : "Premium Plan"}</span>
+                                </div>
+                                <p className="text-gray-500 text-sm">
+                                    {billingCycle === "standard" ? "Have design ready to build? Or small budget?" : "Need a full-scale solution from scratch?"}
+                                </p>
+                            </div>
+
+                            <div className="mb-12">
+                                <span className="text-5xl md:text-7xl font-light text-white tracking-tight">
+                                    {billingCycle === "standard" ? "$10" : "$29"}
+                                </span>
+                                <span className="text-xl text-gray-500 font-light"> / hour</span>
+                            </div>
+
+                            <div className="flex-1 space-y-4 mb-12">
+                                {[
+                                    billingCycle === "standard" ? "Need your wireframe" : "Full Design System included",
+                                    billingCycle === "standard" ? "Design with Figma, Framer" : "Advanced Prototyping",
+                                    "Implement with Webflow, React, Next.js",
+                                    "Remote/Online",
+                                    "Work in business days, no weekend",
+                                    "Support 6 months"
+                                ].map((feature, i) => (
+                                    <div key={i} className="flex items-center gap-3">
+                                        <Check size={16} className="text-orange-500" />
+                                        <span className="text-gray-400 text-sm">{feature}</span>
+                                    </div>
+                                ))}
+                            </div>
+
+                            <button className="w-full py-4 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition-colors flex items-center justify-center gap-2 group/btn" onClick={()=> scrollToSection("contact")}>
+                                Start a Project
+                                <ArrowUpRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="w-full max-w-lg mt-6 p-1 rounded-2xl bg-gradient-to-r from-zinc-900 to-black border border-white/10 group cursor-pointer hover:border-white/20 transition-all">
+                        <div className="bg-zinc-950/80 backdrop-blur-sm rounded-xl px-8 py-6 flex items-center justify-between" onClick={()=> scrollToSection("contact")}>
+                            <span className="text-lg text-white font-light">Custom Quote</span>
+                            <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-all">
+                                <ArrowUpRight size={18} />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* FAQ SECTION */}
+            <section id="faq" className="w-full flex justify-center bg-black border-b border-white/10">
+                <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[60vh] flex flex-col p-10 md:p-20">
+                    {/* Grid Dots */}
+                    <div className="absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+
+                    <h2 className="text-4xl md:text-6xl font-normal text-white mb-20 text-center">FAQs</h2>
+
+                    <div className="flex flex-col gap-4">
+                        {[
+                            { q: "What's the development progress like?", a: "I specialize in clean, scalable code and regular updates. You'll receive weekly milestone reports and have access to a live staging environment to track progress in real-time." },
+                            { q: "Design delivery time estimate?", a: "Typically, a standard revision takes 2-3 business days. Full project timelines depend on scope, but I prioritize speed without compromising quality." },
+                            { q: "What Service do You offer?", a: "I offer Full Stack Development (MERN), UI/UX implementation, API Testing/Integration, and Performance Optimization for modern web applications." },
+                            { q: "What if I don't like design?", a: "We work iteratively. I provide initial wireframes and style guides for approval before coding. If you're not satisfied, we refine it until it matches your vision." },
+                            { q: "Are there any Refund?", a: "Milestone-based payments ensure safety for both parties. If a project is cancelled before work begins on a milestone, that portion is fully refundable." }
+                        ].map((item, i) => (
+                            <div key={i} className="border-b border-white/10 last:border-0">
+                                <button
+                                    onClick={() => setActiveFAQ(activeFAQ === i ? null : i)}
+                                    className="w-full flex items-center justify-between py-8 text-left group"
+                                >
+                                    <span className="text-lg md:text-xl text-gray-300 group-hover:text-white transition-colors">{item.q}</span>
+                                    <div className={`w-8 h-8 rounded-full border border-white/10 flex items-center justify-center transition-all duration-300 ${activeFAQ === i ? "bg-white text-black rotate-180" : "bg-transparent text-white group-hover:bg-white/10"}`}>
+                                        {activeFAQ === i ? <Minus size={14} /> : <Plus size={14} />}
+                                    </div>
+                                </button>
+                                <div className={`overflow-hidden transition-all duration-500 ease-in-out ${activeFAQ === i ? "max-h-40 opacity-100 pb-8" : "max-h-0 opacity-0"}`}>
+                                    <p className="text-gray-500 leading-relaxed text-sm md:text-base pr-8">
+                                        {item.a}
+                                    </p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="mt-20 text-center">
+                        <p className="text-gray-500 text-sm mb-4">Do you have any other questions?</p>
+                        <button onClick={() => scrollToSection("contact")} className="text-white underline underline-offset-4 hover:text-orange-500 transition-colors">Ask me directly</button>
+                    </div>
+                </div>
+            </section>
+
+            {/* CONTACT SECTION */}
+            <section id="contact" className="w-full flex justify-center bg-zinc-950 border-b border-white/10">
+                <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[80vh] flex flex-col p-10 md:p-20">
+                    {/* Grid Dots */}
+                    <div className="absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+                    <div className="absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full" />
+
+                    <div className="flex items-center gap-4 mb-12">
+                        <div className="w-1.5 h-1.5 rounded-full bg-orange-500" />
+                        <span className="text-xs uppercase tracking-widest text-gray-500">Contact Form</span>
+                    </div>
+
+                    <h2 className="text-4xl md:text-6xl font-normal text-white mb-16">Contact For Work</h2>
+
+                    <form
+                        className="flex flex-col gap-12"
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            window.open(`mailto:sj586997@gmail.com?subject=Project Inquiry (${selectedBudget})&body=Phone: ${e.target.phone.value}%0D%0A%0D%0AMessage:%0D%0A${e.target.message.value}`);
+                        }}
+                    >
+                        <div className="space-y-2">
+                            <label className="text-gray-400 text-sm">Your E-mail</label>
+                            <input type="email" name="email" placeholder="Enter the Email" className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:outline-none focus:border-white/40 transition-colors placeholder:text-gray-700" required />
+                        </div>
+
+                        <div className="space-y-2">
+                            <label className="text-gray-400 text-sm">Your Phone</label>
+                            <input type="tel" name="phone" placeholder="Enter Your Phone no" className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:outline-none focus:border-white/40 transition-colors placeholder:text-gray-700" />
+                        </div>
+
+                        <div className="space-y-2">
+                            <label className="text-gray-400 text-sm">Message</label>
+                            <textarea name="message" placeholder="Describe your project..." rows={4} className="w-full bg-transparent border-b border-white/10 py-4 text-white focus:outline-none focus:border-white/40 transition-colors placeholder:text-gray-700 resize-none" />
+                        </div>
+
+                        <div className="space-y-6">
+                            <label className="text-gray-200 text-base">Select your Budget</label>
+                            <div className="flex flex-wrap gap-3">
+                                {["< $1,000", "$1,000 - $5,000", "$5,000 - $10,000", "$10,000 - $20,000", "> $20,000"].map((budget) => (
+                                    <button
+                                        key={budget}
+                                        type="button"
+                                        onClick={() => setSelectedBudget(budget)}
+                                        className={`px-6 py-3 rounded-full border text-sm transition-all duration-300 ${selectedBudget === budget ? "bg-white text-black border-white" : "bg-transparent text-gray-400 border-white/10 hover:border-white/30"}`}
+                                    >
+                                        {budget}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+
+                        <button type="submit" className="w-full md:w-auto md:self-start mt-8 bg-white text-black px-10 py-4 rounded-full font-medium flex items-center justify-between gap-8 group hover:bg-gray-200 transition-colors">
+                            Send Request
+                            <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center transition-transform group-hover:rotate-45">
+                                <ArrowUpRight size={14} />
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </section>
 
             <footer className="w-full flex justify-center py-10 bg-black">
                 <div className="text-gray-500 text-xs">
@@ -568,6 +850,6 @@ export default function Hero() {
                 </div>
             </footer>
 
-        </div>
+        </div >
     );
 }
