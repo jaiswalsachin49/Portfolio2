@@ -1,277 +1,251 @@
-[00:00:01.042] Server  LOG      ✓ Ready in 747ms
-[00:00:04.508] Server  LOG      ○ Compiling /hero ...
-[00:00:05.392] Server  ERROR    ⨯ ./src/app/hero/page.js:505:11
+[00:00:00.892] Server  LOG      ✓ Ready in 608ms
+[00:00:10.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.296] Server  LOG      ✓ Compiled in 87ms
+[00:00:33.742] Server  LOG      ✓ Compiled in 33ms
+[00:00:42.528] Server  LOG      ✓ Compiled in 364ms
+[00:01:09.735] Server  LOG      ✓ Compiled in 51ms
+[01:44:48.204] Server  LOG      ✓ Compiled in 458ms
+[01:44:48.329] Browser ERROR   ./src/app/hero/page.js:163:53
 Parsing ecmascript source code failed
-  503 |             </section>
-  504 |
-> 505 |         </section>
-      |           ^^^^^^^
-  506 |
-  507 |             {/* TECH STACK SECTION */ }
-  508 |     <section id="tech" className="w-full flex justify-center bg-black border-b border-white/10">
-
-Expected corresponding JSX closing tag for <div>
-
-
-[00:00:07.536] Browser ERROR   uncaughtError: Error: ./src/app/hero/page.js:505:11
-Parsing ecmascript source code failed
-  503 |             </section>
-  504 |
-> 505 |         </section>
-      |           ^^^^^^^
-  506 |
-  507 |             {/* TECH STACK SECTION */ }
-  508 |     <section id="tech" className="w-full flex justify-center bg-black border-b border-white/10">
-
-Expected corresponding JSX closing tag for <div>
-
-
-[00:00:08.635] Browser ERROR   ./src/app/hero/page.js:505:11
-Parsing ecmascript source code failed
-  503 |             </section>
-  504 |
-> 505 |         </section>
-      |           ^^^^^^^
-  506 |
-  507 |             {/* TECH STACK SECTION */ }
-  508 |     <section id="tech" className="w-full flex justify-center bg-black border-b border-white/10">
-
-Expected corresponding JSX closing tag for <div>
-[00:00:08.635] Browser ERROR   ./src/app/hero/page.js:505:11
-Parsing ecmascript source code failed
-  503 |             </section>
-  504 |
-> 505 |         </section>
-      |           ^^^^^^^
-  506 |
-  507 |             {/* TECH STACK SECTION */ }
-  508 |     <section id="tech" className="w-full flex justify-center bg-black border-b border-white/10">
-
-Expected corresponding JSX closing tag for <div>
-[00:00:15.185] Server  LOG      ✓ Compiled in 180ms
-[00:00:15.624] Server  ERROR    ⨯ ReferenceError: Cpu is not defined
-[00:00:16.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.617] Browser ERROR   uncaughtError: ReferenceError: Cpu is not defined
-[00:00:20.395] Server  ERROR    ⨯ ReferenceError: Cpu is not defined
-[00:00:20.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:20.752] Browser ERROR   uncaughtError: ReferenceError: Cpu is not defined
-[00:00:30.790] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:30.805] Server  LOG      ✓ Compiled in 33ms
-[00:00:31.009] Server  ERROR    ⨯ ReferenceError: Cpu is not defined
-[00:00:31.158] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:31.278] Browser ERROR   uncaughtError: ReferenceError: Cpu is not defined
-[00:00:36.227] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:36.248] Server  LOG      ✓ Compiled in 83ms
-[00:00:36.580] Server  ERROR    ⨯ ReferenceError: Code2 is not defined
-[00:00:36.782] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.919] Browser ERROR   uncaughtError: ReferenceError: Code2 is not defined
-[00:00:41.800] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:41.821] Server  LOG      ✓ Compiled in 39ms
-[00:00:42.044] Server  ERROR    ⨯ ReferenceError: Code2 is not defined
-[00:00:42.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:42.490] Browser ERROR   uncaughtError: ReferenceError: Code2 is not defined
-[00:00:45.462] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:45.482] Server  LOG      ✓ Compiled in 63ms
-[00:00:45.858] Server  ERROR    ⨯ ReferenceError: Box is not defined
-[00:00:45.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:46.136] Browser ERROR   uncaughtError: ReferenceError: Box is not defined
-[00:00:50.501] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:50.519] Server  LOG      ✓ Compiled in 30ms
-[00:00:50.711] Server  ERROR    ⨯ ReferenceError: Box is not defined
-[00:00:51.031] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:51.162] Browser ERROR   uncaughtError: ReferenceError: Box is not defined
-[00:00:53.019] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:53.075] Server  LOG      ✓ Compiled in 49ms
-[00:00:53.117] Server  ERROR    ⨯ ReferenceError: Globe is not defined
-[00:00:53.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.407] Browser ERROR   uncaughtError: ReferenceError: Globe is not defined
-[00:00:55.011] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:55.066] Server  LOG      ✓ Compiled in 30ms
-[00:00:55.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:29.814] Server  LOG      ✓ Compiled in 133ms
-[00:02:37.481] Server  LOG      ✓ Compiled in 102ms
-[00:02:39.191] Server  LOG      ✓ Compiled in 17ms
-[00:02:41.435] Server  LOG      ✓ Compiled in 23ms
-[00:02:45.244] Server  LOG      ✓ Compiled in 22ms
-[00:02:47.552] Server  LOG      ✓ Compiled in 80ms
-[00:02:58.434] Browser ERROR   uncaughtError: ReferenceError: scrollIntoView is not defined
-[00:05:36.959] Server  LOG      ✓ Compiled in 1162ms
-[00:06:34.947] Server  LOG      ✓ Compiled in 1828ms
-[00:06:42.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:58.586] Server  LOG      ✓ Compiled in 390ms
-[00:11:04.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:55.750] Server  LOG      ✓ Compiled in 1198ms
-[00:12:56.361] Server  LOG      ✓ Compiled in 256ms
-[00:12:58.742] Server  LOG      ✓ Compiled in 606ms
-[00:13:37.623] Server  LOG      ✓ Compiled in 118ms
-[00:13:39.114] Server  LOG      ✓ Compiled in 28ms
-[00:13:46.913] Server  LOG      ✓ Compiled in 42ms
-[00:13:47.611] Browser ERROR   Unknown event handler property `%s`. It will be ignored. onc
-[00:13:48.919] Server  LOG      ✓ Compiled in 23ms
-[00:13:49.611] Browser ERROR   Unknown event handler property `%s`. It will be ignored. onC
-[00:13:51.628] Server  LOG      ✓ Compiled in 66ms
-[00:13:52.613] Browser ERROR   ./src/app/hero/page.js:733:139
-Parsing ecmascript source code failed
-  731 |                     {/* Custom Quote Banner */}
-  732 |                     <div className="w-full max-w-lg mt-6 p-1 rounded-2xl bg-gradient-to-r from-zinc-900 to-black border border-white/10 group cursor-pointer hover:border-white/20 transition-all">
-> 733 |                         <div className="bg-zinc-950/80 backdrop-blur-sm rounded-xl px-8 py-6 flex items-center justify-between" onClick={}>
-      |                                                                                                                                           ^
-  734 |                             <span className="text-lg text-white font-light">Custom Quote</span>
-  735 |                             <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-all">
-  736 |                                 <ArrowUpRight size={18} />
+  161 |     useEffect(() => {
+  162 |         let cursorFrame;
+> 163 |         const cursorLink = { x: window.innerWidth / , y: window.innerHeight / 2 };
+      |                                                     ^
+  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+  165 |
+  166 |         const moveCursor = (e) => {
 
 Expression expected
 
-Import traces:
-  Client Component Browser:
-    ./src/app/hero/page.js [Client Component Browser]
-    ./src/app/hero/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/hero/page.js [Client Component SSR]
-    ./src/app/hero/page.js [Server Component]
-[00:13:52.917] Server  LOG      ✓ Compiled in 24ms
-[00:13:53.611] Browser ERROR   ./src/app/hero/page.js:733:140
+Import trace:
+  Server Component:
+    ./src/app/hero/page.js
+    ./src/app/page.js
+[01:44:54.749] Server  LOG      ✓ Compiled in 665ms
+[01:44:56.705] Server  LOG      ✓ Compiled in 161ms
+[01:44:59.553] Server  LOG      ✓ Compiled in 62ms
+[01:45:02.997] Server  LOG      ✓ Compiled in 120ms
+[01:45:18.810] Server  LOG      ✓ Compiled in 67ms
+[01:45:18.923] Browser ERROR   ./src/app/hero/page.js:163:53
 Parsing ecmascript source code failed
-  731 |                     {/* Custom Quote Banner */}
-  732 |                     <div className="w-full max-w-lg mt-6 p-1 rounded-2xl bg-gradient-to-r from-zinc-900 to-black border border-white/10 group cursor-pointer hover:border-white/20 transition-all">
-> 733 |                         <div className="bg-zinc-950/80 backdrop-blur-sm rounded-xl px-8 py-6 flex items-center justify-between" onClick={()}>
-      |                                                                                                                                            ^
-  734 |                             <span className="text-lg text-white font-light">Custom Quote</span>
-  735 |                             <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-all">
-  736 |                                 <ArrowUpRight size={18} />
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/hero/page.js [Client Component Browser]
-    ./src/app/hero/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/hero/page.js [Client Component SSR]
-    ./src/app/hero/page.js [Server Component]
-[00:13:54.075] Server  LOG      ✓ Compiled in 18ms
-[00:13:54.612] Browser ERROR   ./src/app/hero/page.js:733:140
-Parsing ecmascript source code failed
-  731 |                     {/* Custom Quote Banner */}
-  732 |                     <div className="w-full max-w-lg mt-6 p-1 rounded-2xl bg-gradient-to-r from-zinc-900 to-black border border-white/10 group cursor-pointer hover:border-white/20 transition-all">
-> 733 |                         <div className="bg-zinc-950/80 backdrop-blur-sm rounded-xl px-8 py-6 flex items-center justify-between" onClick={()=}>
-      |                                                                                                                                            ^
-  734 |                             <span className="text-lg text-white font-light">Custom Quote</span>
-  735 |                             <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-all">
-  736 |                                 <ArrowUpRight size={18} />
-
-Expected '</', got '='
-
-Import traces:
-  Client Component Browser:
-    ./src/app/hero/page.js [Client Component Browser]
-    ./src/app/hero/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/hero/page.js [Client Component SSR]
-    ./src/app/hero/page.js [Server Component]
-[00:13:55.122] Server  LOG      ✓ Compiled in 20ms
-[00:13:55.611] Browser ERROR   ./src/app/hero/page.js:733:142
-Parsing ecmascript source code failed
-  731 |                     {/* Custom Quote Banner */}
-  732 |                     <div className="w-full max-w-lg mt-6 p-1 rounded-2xl bg-gradient-to-r from-zinc-900 to-black border border-white/10 group cursor-pointer hover:border-white/20 transition-all">
-> 733 |                         <div className="bg-zinc-950/80 backdrop-blur-sm rounded-xl px-8 py-6 flex items-center justify-between" onClick={()=>}>
-      |                                                                                                                                              ^
-  734 |                             <span className="text-lg text-white font-light">Custom Quote</span>
-  735 |                             <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-all">
-  736 |                                 <ArrowUpRight size={18} />
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/hero/page.js [Client Component Browser]
-    ./src/app/hero/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/hero/page.js [Client Component SSR]
-    ./src/app/hero/page.js [Server Component]
-[00:13:57.749] Server  LOG      ✓ Compiled in 18ms
-[00:14:00.018] Server  LOG      ✓ Compiled in 32ms
-[00:17:18.321] Server  LOG      ✓ Compiled in 3.1s
-[00:18:30.573] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:40.549] Server  LOG      ✓ Compiled in 809ms
-[00:21:53.200] Server  LOG      ✓ Compiled in 52ms
-[00:21:54.685] Server  LOG      ✓ Compiled in 41ms
-[00:22:05.267] Server  LOG      ✓ Compiled in 123ms
-[00:22:15.534] Server  LOG      ✓ Compiled in 65ms
-[00:23:53.586] Server  LOG      ✓ Compiled in 1353ms
-[00:23:57.190] Server  LOG      ✓ Compiled in 222ms
-[00:23:58.856] Server  LOG      ✓ Compiled in 359ms
-[00:24:18.291] Browser ERROR   ./src/app/hero/page.js:355:25
-Parsing ecmascript source code failed
-  353 |                         <div className="flex items-center gap-3">
-  354 |                             <img 
-> 355 |                         </div>
-      |                         ^
-  356 |                         <div className="hidden md:flex items-center gap-3 bg-black/60 border border-white/10 rounded-full pl-2 pr-4 py-1.5">
-  357 |                             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
-  358 |                             <span className="text-xs text-gray-400">Available for projects</span>
+  161 |     useEffect(() => {
+  162 |         let cursorFrame;
+> 163 |         const cursorLink = { x: window.innerWidth / , y: window.innerHeight / 2 };
+      |                                                     ^
+  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+  165 |
+  166 |         const moveCursor = (e) => {
 
 Expression expected
 
-Import traces:
-  Client Component Browser:
-    ./src/app/hero/page.js [Client Component Browser]
-    ./src/app/hero/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/hero/page.js [Client Component SSR]
-    ./src/app/hero/page.js [Server Component]
-[00:24:18.291] Browser ERROR   ./src/app/hero/page.js:355:26
+Import trace:
+  Server Component:
+    ./src/app/hero/page.js
+    ./src/app/page.js
+[01:45:27.644] Server  LOG      ✓ Compiled in 64ms
+[01:45:27.747] Browser ERROR   ./src/app/hero/page.js:163:81
 Parsing ecmascript source code failed
-  353 |                         <div className="flex items-center gap-3">
-  354 |                             <img 
-> 355 |                         </div>
-      |                          ^^^^^
-  356 |                         <div className="hidden md:flex items-center gap-3 bg-black/60 border border-white/10 rounded-full pl-2 pr-4 py-1.5">
-  357 |                             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
-  358 |                             <span className="text-xs text-gray-400">Available for projects</span>
+  161 |     useEffect(() => {
+  162 |         let cursorFrame;
+> 163 |         const cursorLink = { x: window.innerWidth / 5, y: window.innerHeight /  };
+      |                                                                                 ^
+  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+  165 |
+  166 |         const moveCursor = (e) => {
 
-Unterminated regexp literal
+Expression expected
 
-Import traces:
-  Client Component Browser:
-    ./src/app/hero/page.js [Client Component Browser]
-    ./src/app/hero/page.js [Server Component]
+Import trace:
+  Server Component:
+    ./src/app/hero/page.js
+    ./src/app/page.js
+[01:45:31.188] Server  LOG      ✓ Compiled in 43ms
+[01:45:43.089] Server  LOG      ✓ Compiled in 42ms
+[01:45:44.074] Server  LOG      ✓ Compiled in 37ms
+[01:45:44.176] Browser ERROR   ./src/app/hero/page.js:163:53
+Parsing ecmascript source code failed
+  161 |     useEffect(() => {
+  162 |         let cursorFrame;
+> 163 |         const cursorLink = { x: window.innerWidth / , y: window.innerHeight / 2 };
+      |                                                     ^
+  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+  165 |
+  166 |         const moveCursor = (e) => {
 
-  Client Component SSR:
-    ./src/app/hero/page.js [Client Component SSR]
-    ./src/app/hero/page.js [Server Component]
-[00:24:19.403] Server  LOG      ✓ Compiled in 1101ms
-[00:24:24.795] Server  LOG      ✓ Compiled in 1392ms
-[00:24:28.926] Server  LOG      ○ Compiling /_not-found/page ...
-[00:24:33.951] Server  LOG      ✓ Compiled in 1098ms
-[00:24:39.897] Server  LOG      ✓ Compiled in 1075ms
-[00:24:42.146] Server  LOG      ✓ Compiled in 1160ms
-[00:24:50.494] Server  LOG      ✓ Compiled in 1032ms
-[00:24:55.958] Server  LOG      ✓ Compiled in 1163ms
-[00:25:05.480] Server  LOG      ✓ Compiled in 526ms
-[00:25:09.581] Server  LOG      ✓ Compiled in 562ms
-[00:25:51.528] Server  LOG      ✓ Compiled in 155ms
-[00:25:57.647] Server  LOG      ✓ Compiled in 358ms
-[00:26:13.400] Server  LOG      ✓ Compiled in 651ms
-[00:26:18.022] Server  LOG      ✓ Compiled in 253ms
-[00:26:21.630] Server  LOG      ✓ Compiled in 645ms
-[00:26:27.938] Server  LOG      ✓ Compiled in 450ms
-[00:26:54.956] Server  LOG      ✓ Compiled in 241ms
-[00:26:58.508] Server  LOG      ✓ Compiled in 221ms
-[00:27:01.740] Server  LOG      ✓ Compiled in 203ms
-[00:27:05.440] Server  LOG      ✓ Compiled in 797ms
-[00:27:11.176] Server  LOG      ✓ Compiled in 314ms
-[00:27:16.768] Server  LOG      ✓ Compiled in 80ms
-[00:27:21.040] Server  LOG      ✓ Compiled in 59ms
-[00:27:22.515] Server  LOG      ✓ Compiled in 135ms
-[00:27:33.435] Server  LOG      ✓ Compiled in 162ms
-[00:27:49.160] Server  LOG      ✓ Compiled in 239ms
-[00:28:00.250] Server  LOG      ✓ Compiled in 372ms
-[00:28:25.946] Server  LOG      ✓ Compiled in 478ms
-[00:29:09.010] Server  LOG      ✓ Compiled in 1025ms
-[00:32:33.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/app/hero/page.js
+    ./src/app/page.js
+[03:06:43.805] Server  LOG      ✓ Compiled in 247ms
+[03:07:28.775] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:30.147] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:33.634] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:34.517] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:36.747] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:36.766] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:36.871] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:40.444] Server  LOG      ✓ Compiled in 54ms
+[03:07:40.489] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:40.513] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:58.448] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:07:59.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:36.718] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:08:36.722] Server  LOG      ✓ Compiled in 3.6s
+[03:08:36.755] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:08:37.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:09:02.963] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:02.991] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:06.107] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:06.128] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:07.364] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:07.394] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:10.631] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:10.631] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:10.652] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:10.652] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:17.821] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:17.821] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:17.848] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:17.848] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:22.324] Browser ERROR   ./src/app/layout.js:28:2
+Parsing ecmascript source code failed
+  26 |   openGraph: {
+  27 |     
+> 28 | };
+     |  ^
+  29 |
+  30 | export default function RootLayout({ children }) {
+  31 |   return (
+
+Expected ',', got ';'
+[03:09:23.870] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:09:23.870] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:23.870] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:23.908] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:23.908] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:30.324] Browser ERROR   ./src/app/layout.js:28:2
+Parsing ecmascript source code failed
+  26 |   openGraph: {
+  27 |     
+> 28 | };
+     |  ^
+  29 |
+  30 | export default function RootLayout({ children }) {
+  31 |   return (
+
+Expected ',', got ';'
+[03:09:32.735] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:32.735] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:32.775] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:32.775] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:07.727] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:07.728] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:07.749] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:07.749] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:43.231] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:43.231] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:43.262] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:43.262] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:46.950] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:46.950] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:46.969] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:46.969] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:55.322] Browser ERROR   ./src/app/layout.js:17:4652
+Parsing ecmascript source code failed
+  15 |   title: "Sachin Jaiswal",
+  16 |   description: "Sachin Jaiswal",
+> 17 |   keywords: ["Sachin Jaiswal", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^^^^^^^
+  18 |   },
+  19 |   viewport: {
+  20 |     themeColor: "#000000",
+
+Unterminated string constant
+[03:10:56.405] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:56.405] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:56.425] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:10:56.425] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:02.072] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:02.072] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:02.091] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:02.091] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:12:07.957] Server  LOG      ✓ Compiled in 119ms
+[03:12:12.380] Server  LOG      ✓ Compiled in 18ms
+[03:12:14.143] Server  LOG      ✓ Compiled in 19ms
+[03:12:15.168] Server  LOG      ✓ Compiled in 17ms
+[03:12:32.176] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:12:32.192] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:12:34.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:13:42.324] Server  LOG      ✓ Compiled in 142ms
+[03:14:46.163] Server  LOG      ✓ Compiled in 162ms
+[03:14:49.758] Server  LOG      ✓ Compiled in 401ms
+[03:14:51.439] Server  LOG      ✓ Compiled in 78ms
+[03:14:55.366] Server  LOG      ✓ Compiled in 53ms
+[03:14:57.829] Server  LOG      ✓ Compiled in 50ms
+[03:14:59.396] Server  LOG      ✓ Compiled in 22ms
+[03:15:03.014] Server  LOG      ✓ Compiled in 34ms
+[03:15:05.507] Server  LOG      ✓ Compiled in 115ms
+[03:15:51.996] Server  LOG      ✓ Compiled in 622ms
+[03:16:00.309] Server  LOG      ✓ Compiled in 133ms
+[03:16:02.873] Server  LOG      ✓ Compiled in 24ms
+[03:16:04.261] Server  LOG      ✓ Compiled in 45ms
+[03:16:06.056] Server  LOG      ✓ Compiled in 181ms

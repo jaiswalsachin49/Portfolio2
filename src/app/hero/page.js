@@ -388,7 +388,7 @@ export default function Hero() {
                                 { Icon: Instagram, href: "https://www.instagram.com/jaiswalsachin_49/" },
                                 { Icon: Github, href: "https://github.com/jaiswalsachin49" },
                             ].map(({ Icon, href }, i) => (
-                                <a key={i} href={href} target="_blank" className="w-10 h-10 rounded-full border border-white/5 bg-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 backdrop-blur-sm">
+                                <a key={i} href={href} target="_blank" className="w-10 h-10 rounded-full border border-white/5 bg-white/5 flex items-center justify-center text-gray-400 hover:text-black hover:bg-white hover:border-black/20 hover:text-black hover:bg-white transition-all duration-300 backdrop-blur-sm">
                                     <Icon size={16} />
                                 </a>
                             ))}
@@ -613,9 +613,9 @@ export default function Hero() {
                         <div className="animate-scroll-y flex flex-col gap-8">
                             {[
                                 { name: "Kushal", text: "Sachin is one of the most dedicated people I know. His ability to turn complex logic into smooth applications is just inspiring. Always there to help!", role: "Developer & Friend" },
-                                { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Designer & Friend" },
+                                { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Developer & Friend" },
                                 { name: "Kushal", text: "Sachin is one of the most dedicated people I know. His ability to turn complex logic into smooth applications is just inspiring. Always there to help!", role: "Developer & Friend" },
-                                { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Designer & Friend" },
+                                { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Developer & Friend" },
                             ].map((review, i) => (
                                 <div key={i} className="relative p-8 md:p-10 rounded-[2rem] bg-zinc-900 border border-white/5 overflow-hidden group hover:border-orange-500/30 transition-colors duration-500">
                                     <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-orange-600/20 blur-[80px] rounded-full group-hover:bg-orange-600/30 transition-all duration-700" />
@@ -651,7 +651,6 @@ export default function Hero() {
                 </div>
             </section>
 
-            {/* PRICING SECTION */}
             <section id="pricing" className="w-full flex justify-center bg-zinc-950 border-b border-white/10">
                 <div className="relative w-full md:w-[60%] md:max-w-5xl border-x border-white/10 min-h-[80vh] flex flex-col items-center p-10 md:p-20">
                 
@@ -695,7 +694,7 @@ export default function Hero() {
 
                             <div className="mb-12">
                                 <span className="text-5xl md:text-7xl font-light text-white tracking-tight">
-                                    {billingCycle === "standard" ? "$10" : "$29"}
+                                    {billingCycle === "standard" ? "$5" : "$15"}
                                 </span>
                                 <span className="text-xl text-gray-500 font-light"> / hour</span>
                             </div>
