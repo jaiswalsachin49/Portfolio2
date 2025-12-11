@@ -614,8 +614,10 @@ export default function Hero() {
                             {[
                                 { name: "Kushal", text: "Sachin is one of the most dedicated people I know. His ability to turn complex logic into smooth applications is just inspiring. Always there to help!", role: "Developer & Friend" },
                                 { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Developer & Friend" },
+                                {name: "Ashutosh", text: "Hey! I really appreciate you helping me out with my projects and debugging all those issues. Your help has been invaluable!", role: "Developer & Friend" },
                                 { name: "Kushal", text: "Sachin is one of the most dedicated people I know. His ability to turn complex logic into smooth applications is just inspiring. Always there to help!", role: "Developer & Friend" },
                                 { name: "Asad", text: "I've seen him debug issues for hours without losing his cool. A truly patient and skilled developer who treats every project like his own masterpiece.", role: "Developer & Friend" },
+                                {name: "Ashutosh", text: "Hey! I really appreciate you helping me out with my projects and debugging all those issues. Your help has been invaluable!", role: "Developer & Friend" },
                             ].map((review, i) => (
                                 <div key={i} className="relative p-8 md:p-10 rounded-[2rem] bg-zinc-900 border border-white/5 overflow-hidden group hover:border-orange-500/30 transition-colors duration-500">
                                     <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-orange-600/20 blur-[80px] rounded-full group-hover:bg-orange-600/30 transition-all duration-700" />
