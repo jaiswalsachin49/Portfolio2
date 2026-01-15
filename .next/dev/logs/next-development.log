@@ -1,251 +1,60 @@
-[00:00:00.892] Server  LOG      ✓ Ready in 608ms
-[00:00:10.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:32.296] Server  LOG      ✓ Compiled in 87ms
-[00:00:33.742] Server  LOG      ✓ Compiled in 33ms
-[00:00:42.528] Server  LOG      ✓ Compiled in 364ms
-[00:01:09.735] Server  LOG      ✓ Compiled in 51ms
-[01:44:48.204] Server  LOG      ✓ Compiled in 458ms
-[01:44:48.329] Browser ERROR   ./src/app/hero/page.js:163:53
-Parsing ecmascript source code failed
-  161 |     useEffect(() => {
-  162 |         let cursorFrame;
-> 163 |         const cursorLink = { x: window.innerWidth / , y: window.innerHeight / 2 };
-      |                                                     ^
-  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-  165 |
-  166 |         const moveCursor = (e) => {
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/app/hero/page.js
-    ./src/app/page.js
-[01:44:54.749] Server  LOG      ✓ Compiled in 665ms
-[01:44:56.705] Server  LOG      ✓ Compiled in 161ms
-[01:44:59.553] Server  LOG      ✓ Compiled in 62ms
-[01:45:02.997] Server  LOG      ✓ Compiled in 120ms
-[01:45:18.810] Server  LOG      ✓ Compiled in 67ms
-[01:45:18.923] Browser ERROR   ./src/app/hero/page.js:163:53
-Parsing ecmascript source code failed
-  161 |     useEffect(() => {
-  162 |         let cursorFrame;
-> 163 |         const cursorLink = { x: window.innerWidth / , y: window.innerHeight / 2 };
-      |                                                     ^
-  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-  165 |
-  166 |         const moveCursor = (e) => {
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/app/hero/page.js
-    ./src/app/page.js
-[01:45:27.644] Server  LOG      ✓ Compiled in 64ms
-[01:45:27.747] Browser ERROR   ./src/app/hero/page.js:163:81
-Parsing ecmascript source code failed
-  161 |     useEffect(() => {
-  162 |         let cursorFrame;
-> 163 |         const cursorLink = { x: window.innerWidth / 5, y: window.innerHeight /  };
-      |                                                                                 ^
-  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-  165 |
-  166 |         const moveCursor = (e) => {
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/app/hero/page.js
-    ./src/app/page.js
-[01:45:31.188] Server  LOG      ✓ Compiled in 43ms
-[01:45:43.089] Server  LOG      ✓ Compiled in 42ms
-[01:45:44.074] Server  LOG      ✓ Compiled in 37ms
-[01:45:44.176] Browser ERROR   ./src/app/hero/page.js:163:53
-Parsing ecmascript source code failed
-  161 |     useEffect(() => {
-  162 |         let cursorFrame;
-> 163 |         const cursorLink = { x: window.innerWidth / , y: window.innerHeight / 2 };
-      |                                                     ^
-  164 |         const cursorTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-  165 |
-  166 |         const moveCursor = (e) => {
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/app/hero/page.js
-    ./src/app/page.js
-[03:06:43.805] Server  LOG      ✓ Compiled in 247ms
-[03:07:28.775] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:07.196] Server  LOG      ✓ Ready in 5.7s
+[00:00:15.707] Server  LOG      ○ Compiling / ...
+[00:00:18.512] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:30.147] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:18.530] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:33.634] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:20.791] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:42.630] Server  LOG      ✓ Compiled in 644ms
+[00:02:43.569] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:34.517] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:02:43.570] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:36.747] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:45.419] Server  LOG      ✓ Compiled in 62ms
+[00:02:45.515] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:36.766] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:45.515] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:36.871] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:02:46.589] Server  LOG      ✓ Compiled in 82ms
+[00:02:46.692] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:40.444] Server  LOG      ✓ Compiled in 54ms
-[03:07:40.489] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:46.692] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:40.513] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:56.552] Server  LOG      ✓ Compiled in 71ms
+[00:02:56.619] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:58.448] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:56.620] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:07:59.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:08:36.718] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:58.696] Server  LOG      ✓ Compiled in 133ms
+[00:02:58.750] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:08:36.722] Server  LOG      ✓ Compiled in 3.6s
-[03:08:36.755] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:58.750] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:08:37.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:09:02.963] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:01.472] Server  LOG      ✓ Compiled in 107ms
+[00:03:01.616] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:02.991] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:01.616] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:06.107] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:04.382] Server  LOG      ✓ Compiled in 67ms
+[00:03:04.435] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:06.128] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:04.435] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:07.364] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:05.964] Server  LOG      ✓ Compiled in 95ms
+[00:03:06.031] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:07.394] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:06.031] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:10.631] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:08.967] Server  LOG      ✓ Compiled in 82ms
+[00:03:09.034] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:10.631] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:09.034] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:10.652] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:10.652] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:17.821] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:17.821] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:17.848] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:17.848] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:22.324] Browser ERROR   ./src/app/layout.js:28:2
-Parsing ecmascript source code failed
-  26 |   openGraph: {
-  27 |     
-> 28 | };
-     |  ^
-  29 |
-  30 | export default function RootLayout({ children }) {
-  31 |   return (
-
-Expected ',', got ';'
-[03:09:23.870] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[03:09:23.870] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:23.870] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:23.908] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:23.908] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:30.324] Browser ERROR   ./src/app/layout.js:28:2
-Parsing ecmascript source code failed
-  26 |   openGraph: {
-  27 |     
-> 28 | };
-     |  ^
-  29 |
-  30 | export default function RootLayout({ children }) {
-  31 |   return (
-
-Expected ',', got ';'
-[03:09:32.735] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:32.735] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:32.775] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:09:32.775] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:07.727] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:07.728] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:07.749] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:07.749] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:43.231] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:43.231] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:43.262] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:43.262] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:46.950] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:46.950] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:46.969] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:46.969] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:55.322] Browser ERROR   ./src/app/layout.js:17:4652
-Parsing ecmascript source code failed
-  15 |   title: "Sachin Jaiswal",
-  16 |   description: "Sachin Jaiswal",
-> 17 |   keywords: ["Sachin Jaiswal", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin
-     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^^^^^^^
-  18 |   },
-  19 |   viewport: {
-  20 |     themeColor: "#000000",
-
-Unterminated string constant
-[03:10:56.405] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:56.405] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:56.425] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:10:56.425] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:11:02.072] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:11:02.072] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:11:02.091] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:11:02.091] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:12:07.957] Server  LOG      ✓ Compiled in 119ms
-[03:12:12.380] Server  LOG      ✓ Compiled in 18ms
-[03:12:14.143] Server  LOG      ✓ Compiled in 19ms
-[03:12:15.168] Server  LOG      ✓ Compiled in 17ms
-[03:12:32.176] Server  WARN     ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:12:32.192] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:12:34.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:13:42.324] Server  LOG      ✓ Compiled in 142ms
-[03:14:46.163] Server  LOG      ✓ Compiled in 162ms
-[03:14:49.758] Server  LOG      ✓ Compiled in 401ms
-[03:14:51.439] Server  LOG      ✓ Compiled in 78ms
-[03:14:55.366] Server  LOG      ✓ Compiled in 53ms
-[03:14:57.829] Server  LOG      ✓ Compiled in 50ms
-[03:14:59.396] Server  LOG      ✓ Compiled in 22ms
-[03:15:03.014] Server  LOG      ✓ Compiled in 34ms
-[03:15:05.507] Server  LOG      ✓ Compiled in 115ms
-[03:15:51.996] Server  LOG      ✓ Compiled in 622ms
-[03:16:00.309] Server  LOG      ✓ Compiled in 133ms
-[03:16:02.873] Server  LOG      ✓ Compiled in 24ms
-[03:16:04.261] Server  LOG      ✓ Compiled in 45ms
-[03:16:06.056] Server  LOG      ✓ Compiled in 181ms
+[00:03:15.737] Server  LOG      ✓ Compiled in 342ms
+[00:03:44.150] Server  LOG      ✓ Compiled in 1847ms
+[00:03:52.909] Server  LOG      ✓ Compiled in 2.7s
+[00:04:16.034] Server  LOG      ✓ Compiled in 1414ms
+[00:04:22.249] Server  LOG      ✓ Compiled in 730ms
+[00:04:25.656] Server  LOG      ✓ Compiled in 1673ms
+[00:04:34.201] Server  LOG      ✓ Compiled in 1475ms
+[00:04:35.515] Server  LOG      ✓ Compiled in 682ms

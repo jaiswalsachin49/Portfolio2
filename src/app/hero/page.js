@@ -370,7 +370,7 @@ export default function Hero() {
                         <div className="relative group">
                             <div className="absolute -inset-10 bg-orange-600/30 blur-[60px] rounded-full opacity-60 group-hover:opacity-80 transition-opacity duration-700" />
                             <div className="relative w-[320px] h-[320px] md:w-[380px] md:h-[380px] rounded-[2.5rem] overflow-hidden shadow-2xl ring-1 ring-white/10">
-                                <img src="photo.png" alt="Sachin Jaiswal" className="w-full h-full object-cover grayscale-[0.2] contrast-125 transition-transform duration-700 group-hover:scale-105" />
+                                <img src="Web_Photo_Editor.jpg" alt="Sachin Jaiswal" className="w-full h-full object-cover grayscale-[0.1] contrast-125 transition-transform duration-700 group-hover:scale-105" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80" />
                             </div>
                             {/* <img src="name.png" alt="Signature" className="absolute -bottom-30 -rotate-5 left-1/2 -translate-x-1/2 w-[400px] z-20 pointer-events-none drop-shadow-2xl mix-blend-lighten opacity-90" /> */}
