@@ -62,7 +62,9 @@ __turbopack_context__.s([
     "default",
     ()=>RootLayout,
     "metadata",
-    ()=>metadata
+    ()=>metadata,
+    "viewport",
+    ()=>viewport
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_2ae47f08$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/geist_2ae47f08.js [app-rsc] (ecmascript)");
@@ -72,28 +74,34 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: "Sachin Jaiswal",
-    description: "Sachin Jaiswal",
+    title: "Sachin Jaiswal — Full Stack Developer & Freelancer",
+    description: "Portfolio of Sachin Jaiswal, a Full Stack Developer specializing in React, Next.js, Node.js, and modern web applications. Available for freelance projects.",
     keywords: [
         "Sachin Jaiswal",
-        "Sachin Jaiswal Portfolio",
-        "Sachin Jaiswal Portfolio",
-        "Sachin Jaiswal Portfolio",
-        "Sachin Jaiswal Portfolio",
-        "Sachin Jaiswal Portfolio"
+        "Full Stack Developer",
+        "Freelancer",
+        "React Developer",
+        "Next.js Developer",
+        "Web Developer Portfolio",
+        "MERN Stack"
     ],
     authors: [
         {
             name: "Sachin Jaiswal"
         }
     ],
-    themeColor: "#000000",
+    openGraph: {
+        title: "Sachin Jaiswal — Full Stack Developer & Freelancer",
+        description: "Full Stack Developer specializing in React, Next.js, and modern web applications. Available for freelance projects.",
+        type: "website",
+        locale: "en_US"
+    },
     icons: {
         icon: "/logo.png"
-    },
-    viewport: {
-        themeColor: "#000000"
     }
+};
+const viewport = {
+    themeColor: "#000000"
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -103,12 +111,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.js",
-            lineNumber: 31,
+            lineNumber: 47,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.js",
-        lineNumber: 30,
+        lineNumber: 46,
         columnNumber: 5
     }, this);
 }

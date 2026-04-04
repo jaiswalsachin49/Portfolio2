@@ -12,17 +12,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Sachin Jaiswal",
-  description: "Sachin Jaiswal",
-  keywords: ["Sachin Jaiswal", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio", "Sachin Jaiswal Portfolio" ],
+  title: "Sachin Jaiswal — Full Stack Developer & Freelancer",
+  description:
+    "Portfolio of Sachin Jaiswal, a Full Stack Developer specializing in React, Next.js, Node.js, and modern web applications. Available for freelance projects.",
+  keywords: [
+    "Sachin Jaiswal",
+    "Full Stack Developer",
+    "Freelancer",
+    "React Developer",
+    "Next.js Developer",
+    "Web Developer Portfolio",
+    "MERN Stack",
+  ],
   authors: [{ name: "Sachin Jaiswal" }],
-  themeColor: "#000000",
+  openGraph: {
+    title: "Sachin Jaiswal — Full Stack Developer & Freelancer",
+    description:
+      "Full Stack Developer specializing in React, Next.js, and modern web applications. Available for freelance projects.",
+    type: "website",
+    locale: "en_US",
+  },
   icons: {
     icon: "/logo.png",
   },
-  viewport: {
-    themeColor: "#000000",
-  },
+};
+
+export const viewport = {
+  themeColor: "#000000",
 };
 
 export default function RootLayout({ children }) {

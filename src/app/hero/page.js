@@ -170,8 +170,9 @@ export default function Hero() {
 
         const renderCursor = () => {
             if (cursorRef.current) {
-                cursorLink.x = cursorTarget.x;
-                cursorLink.y = cursorTarget.y;
+                // Lerp for buttery-smooth follow (0.25 = fast tracking)
+                cursorLink.x += (cursorTarget.x - cursorLink.x) * 0.25;
+                cursorLink.y += (cursorTarget.y - cursorLink.y) * 0.25;
                 cursorRef.current.style.transform = `translate(${cursorLink.x}px, ${cursorLink.y}px) translate(-50%, -50%)`;
             }
             cursorFrame = requestAnimationFrame(renderCursor);
@@ -214,6 +215,7 @@ export default function Hero() {
     const [billingCycle, setBillingCycle] = useState("standard");
     const [activeFAQ, setActiveFAQ] = useState(null);
     const [selectedBudget, setSelectedBudget] = useState("< $1,000");
+    const [formSubmitted, setFormSubmitted] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -309,7 +311,7 @@ export default function Hero() {
         <div className="relative w-full bg-black text-white font-sans selection:bg-orange-500/30">
             <div
                 ref={cursorRef}
-                className={`fixed rounded-full pointer-events-none z-[60] flex items-center justify-center text-black text-[10px] font-bold tracking-widest transition-all duration-300 ${cursorText ? "w-20 h-20 bg-white mix-blend-normal shadow-2xl scale-100" : "w-5 h-5 bg-white mix-blend-difference shadow-[0_0_10px_2px_rgba(255,255,255,0.3)]"
+                className={`fixed rounded-full pointer-events-none z-[60] flex items-center justify-center text-black text-[10px] font-bold tracking-widest transition-[width,height,background-color,box-shadow,scale,mix-blend-mode] duration-300 ${cursorText ? "w-20 h-20 bg-white mix-blend-normal shadow-2xl scale-100" : "w-5 h-5 bg-white mix-blend-difference shadow-[0_0_10px_2px_rgba(255,255,255,0.3)]"
                     }`}
                 style={{ top: 0, left: 0 }}
             >
@@ -388,7 +390,7 @@ export default function Hero() {
                                 { Icon: Instagram, href: "https://www.instagram.com/jaiswalsachin_49/" },
                                 { Icon: Github, href: "https://github.com/jaiswalsachin49" },
                             ].map(({ Icon, href }, i) => (
-                                <a key={i} href={href} target="_blank" className="w-10 h-10 rounded-full border border-white/5 bg-white/5 flex items-center justify-center text-gray-400 hover:text-black hover:bg-white hover:border-black/20 hover:text-black hover:bg-white transition-all duration-300 backdrop-blur-sm">
+                                <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/5 bg-white/5 flex items-center justify-center text-gray-400 hover:text-black hover:bg-white hover:border-black/20 transition-all duration-300 backdrop-blur-sm">
                                     <Icon size={16} />
                                 </a>
                             ))}
@@ -448,8 +450,8 @@ export default function Hero() {
                                         </h3>
                                     </div>
 
-                                    <button className="w-14 h-14 rounded-[1rem] border border-orange-500/30 bg-orange-500/10 text-orange-500 flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all duration-300 group/btn">
-                                        <ArrowUpRight size={22} className="group-hover/btn:scale-110 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" onClick={() => window.open(project.link, '_blank')} />
+                                    <button onClick={() => window.open(project.link, '_blank')} className="w-14 h-14 rounded-[1rem] border border-orange-500/30 bg-orange-500/10 text-orange-500 flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all duration-300 group/btn">
+                                        <ArrowUpRight size={22} className="group-hover/btn:scale-110 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
                                     </button>
                                 </div>
                             </div>
@@ -476,7 +478,11 @@ export default function Hero() {
                                 key={service.id}
                                 onMouseEnter={() => setCursorText(activeService === service.id ? "Close" : "View")}
                                 onMouseLeave={() => setCursorText("")}
-                                onClick={() => setActiveService(service.id)}
+                                onClick={() => {
+                                    const newActive = activeService === service.id ? null : service.id;
+                                    setActiveService(newActive);
+                                    setCursorText(newActive === service.id ? "Close" : "View");
+                                }}
                                 className={`group py-10 border-b border-white/10 cursor-pointer transition-all duration-500 ${activeService === service.id ? "opacity-100" : "opacity-40 hover:opacity-70"
                                     }`}
                             >
@@ -801,7 +807,12 @@ export default function Hero() {
                         className="flex flex-col gap-12"
                         onSubmit={(e) => {
                             e.preventDefault();
-                            window.open(`mailto:sj586997@gmail.com?subject=Project Inquiry (${selectedBudget})&body=Phone: ${e.target.phone.value}%0D%0A%0D%0AMessage:%0D%0A${e.target.message.value}`);
+                            const email = e.target.email.value;
+                            const phone = e.target.phone.value;
+                            const message = e.target.message.value;
+                            window.open(`mailto:sj586997@gmail.com?subject=Project Inquiry (${selectedBudget})&body=From: ${encodeURIComponent(email)}%0D%0APhone: ${encodeURIComponent(phone)}%0D%0ABudget: ${encodeURIComponent(selectedBudget)}%0D%0A%0D%0AMessage:%0D%0A${encodeURIComponent(message)}`);
+                            setFormSubmitted(true);
+                            setTimeout(() => setFormSubmitted(false), 3000);
                         }}
                     >
                         <div className="space-y-2">
@@ -822,7 +833,7 @@ export default function Hero() {
                         <div className="space-y-6">
                             <label className="text-gray-200 text-base">Select your Budget</label>
                             <div className="flex flex-wrap gap-3">
-                                {["< $1,000", "$1,000 - $5,000", "$5,000 - $10,000", "$10,000 - $20,000", "> $20,000"].map((budget) => (
+                                {["< $50", "$50 - $75", "$75 - $100", "$100 - $150", "> $150"].map((budget) => (
                                     <button
                                         key={budget}
                                         type="button"
@@ -835,11 +846,13 @@ export default function Hero() {
                             </div>
                         </div>
 
-                        <button type="submit" className="w-full md:w-auto md:self-start mt-8 bg-white text-black px-10 py-4 rounded-full font-medium flex items-center justify-between gap-8 group hover:bg-gray-200 transition-colors">
-                            Send Request
-                            <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center transition-transform group-hover:rotate-45">
-                                <ArrowUpRight size={14} />
-                            </div>
+                        <button type="submit" className={`w-full md:w-auto md:self-start mt-8 px-10 py-4 rounded-full font-medium flex items-center justify-between gap-8 group transition-all duration-300 ${formSubmitted ? 'bg-green-500 text-white' : 'bg-white text-black hover:bg-gray-200'}`}>
+                            {formSubmitted ? '✓ Request Sent!' : 'Send Request'}
+                            {!formSubmitted && (
+                                <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center transition-transform group-hover:rotate-45">
+                                    <ArrowUpRight size={14} />
+                                </div>
+                            )}
                         </button>
                     </form>
                 </div>
@@ -847,7 +860,7 @@ export default function Hero() {
 
             <footer className="w-full flex justify-center py-10 bg-black">
                 <div className="text-gray-500 text-xs">
-                    © 2024 Sachin Jaiswal. All rights reserved.
+                    © 2025 Sachin Jaiswal. All rights reserved.
                 </div>
             </footer>
 

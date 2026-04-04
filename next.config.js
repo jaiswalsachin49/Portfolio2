@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Disable Turbopack completely
-  experimental: {
-    turbo: false,
-  },
-
+  // Explicitly use webpack mode for GLSL shader support
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(glsl|vs|fs|vert|frag)$/,
@@ -12,6 +8,9 @@ const nextConfig = {
     });
     return config;
   },
+
+  // Provide empty turbopack config to silence the warning
+  turbopack: {},
 };
 
 module.exports = nextConfig;
