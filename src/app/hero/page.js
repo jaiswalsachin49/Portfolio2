@@ -304,6 +304,26 @@ export default function Hero() {
             description: "Old Portfolio",
             image: "OldPortfolio.png",
             link: "https://portfolio-sachin49.vercel.app/"
+        },
+        {
+            title: "Audio Profiling & Viral Track Characteristics",
+            category: "Data Analytics",
+            year: "2026",
+            bgColor: "bg-[#000000]",
+            textColor: "text-orange-500",
+            description: "What makes a song go viral?",
+            image: "Tableau/Spotify.png",
+            link: "https://github.com/jaiswalsachin49/The-Entertainment-Media-Project.git"
+        },
+        {
+            title: "EV Adoption Trends & Grid Impact Matrix",
+            category: "Data Analytics",
+            year: "2026",
+            bgColor: "bg-[#000000]",
+            textColor: "text-orange-500",
+            description: "Impact of Electric Vehicles on Power Grid",
+            image: "Tableau/EV.png",
+            link: "https://github.com/jaiswalsachin49/EV-Adoption-Trends-Grid-Impact-Matrix.git"
         }
     ];
 

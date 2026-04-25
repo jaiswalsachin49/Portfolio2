@@ -413,6 +413,26 @@ function Hero() {
             description: "Old Portfolio",
             image: "OldPortfolio.png",
             link: "https://portfolio-sachin49.vercel.app/"
+        },
+        {
+            title: "Audio Profiling & Viral Track Characteristics",
+            category: "Data Analytics",
+            year: "2026",
+            bgColor: "bg-[#000000]",
+            textColor: "text-orange-500",
+            description: "What makes a song go viral?",
+            image: "Tableau/Spotify.png",
+            link: "https://github.com/jaiswalsachin49/The-Entertainment-Media-Project.git"
+        },
+        {
+            title: "EV Adoption Trends & Grid Impact Matrix",
+            category: "Data Analytics",
+            year: "2026",
+            bgColor: "bg-[#000000]",
+            textColor: "text-orange-500",
+            description: "Impact of Electric Vehicles on Power Grid",
+            image: "Tableau/EV.png",
+            link: "https://github.com/jaiswalsachin49/EV-Adoption-Trends-Grid-Impact-Matrix.git"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -428,7 +448,7 @@ function Hero() {
                 children: cursorText
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 312,
+                lineNumber: 332,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -443,7 +463,7 @@ function Hero() {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 332,
+                                    lineNumber: 352,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -451,23 +471,23 @@ function Hero() {
                                     children: id.charAt(0).toUpperCase() + id.slice(1)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 333,
+                                    lineNumber: 353,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, id, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 324,
+                            lineNumber: 344,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 322,
+                    lineNumber: 342,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 321,
+                lineNumber: 341,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -481,12 +501,12 @@ function Hero() {
                             className: "w-full h-full block"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 345,
+                            lineNumber: 365,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/hero/page.js",
-                        lineNumber: 344,
+                        lineNumber: 364,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -496,28 +516,28 @@ function Hero() {
                                 className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/hero/page.js",
-                                lineNumber: 349,
+                                lineNumber: 369,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/hero/page.js",
-                                lineNumber: 350,
+                                lineNumber: 370,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/hero/page.js",
-                                lineNumber: 351,
+                                lineNumber: 371,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/hero/page.js",
-                                lineNumber: 352,
+                                lineNumber: 372,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -531,12 +551,12 @@ function Hero() {
                                             className: "w-20 h-20 rounded-full object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 356,
+                                            lineNumber: 376,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 355,
+                                        lineNumber: 375,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,7 +566,7 @@ function Hero() {
                                                 className: "w-2 h-2 rounded-full bg-green-500 animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 359,
+                                                lineNumber: 379,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -554,13 +574,13 @@ function Hero() {
                                                 children: "Available for projects"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 360,
+                                                lineNumber: 380,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 358,
+                                        lineNumber: 378,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -571,7 +591,7 @@ function Hero() {
                                                 children: "Sonipat, Haryana"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 363,
+                                                lineNumber: 383,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -579,13 +599,13 @@ function Hero() {
                                                 children: "INDIA"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 364,
+                                                lineNumber: 384,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 362,
+                                        lineNumber: 382,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -594,18 +614,18 @@ function Hero() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 367,
+                                            lineNumber: 387,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 366,
+                                        lineNumber: 386,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/hero/page.js",
-                                lineNumber: 354,
+                                lineNumber: 374,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -618,7 +638,7 @@ function Hero() {
                                                 className: "absolute -inset-10 bg-orange-600/30 blur-[60px] rounded-full opacity-60 group-hover:opacity-80 transition-opacity duration-700"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 373,
+                                                lineNumber: 393,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -630,26 +650,26 @@ function Hero() {
                                                         className: "w-full h-full object-cover grayscale-[0.1] contrast-125 transition-transform duration-700 group-hover:scale-105"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/hero/page.js",
-                                                        lineNumber: 375,
+                                                        lineNumber: 395,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/hero/page.js",
-                                                        lineNumber: 376,
+                                                        lineNumber: 396,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 374,
+                                                lineNumber: 394,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 372,
+                                        lineNumber: 392,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -662,7 +682,7 @@ function Hero() {
                                                     children: "Hi, I’m Sachin Jaiswal,"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 382,
+                                                    lineNumber: 402,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -670,18 +690,18 @@ function Hero() {
                                                     children: "Working as Full Stack Developer and Freelancer"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 383,
+                                                    lineNumber: 403,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 381,
+                                            lineNumber: 401,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 380,
+                                        lineNumber: 400,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -712,17 +732,17 @@ function Hero() {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 394,
+                                                    lineNumber: 414,
                                                     columnNumber: 37
                                                 }, this)
                                             }, i, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 393,
+                                                lineNumber: 413,
                                                 columnNumber: 33
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 386,
+                                        lineNumber: 406,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -739,18 +759,18 @@ function Hero() {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 402,
+                                                            lineNumber: 422,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/hero/page.js",
-                                                        lineNumber: 401,
+                                                        lineNumber: 421,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 399,
+                                                lineNumber: 419,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -759,31 +779,31 @@ function Hero() {
                                                 children: "View My Work"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 405,
+                                                lineNumber: 425,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 398,
+                                        lineNumber: 418,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/hero/page.js",
-                                lineNumber: 371,
+                                lineNumber: 391,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/hero/page.js",
-                        lineNumber: 348,
+                        lineNumber: 368,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 343,
+                lineNumber: 363,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -796,28 +816,28 @@ function Hero() {
                             className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 415,
+                            lineNumber: 435,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 416,
+                            lineNumber: 436,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 417,
+                            lineNumber: 437,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 418,
+                            lineNumber: 438,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -827,7 +847,7 @@ function Hero() {
                                     className: "w-12 h-1 bg-orange-500 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 421,
+                                    lineNumber: 441,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -835,13 +855,13 @@ function Hero() {
                                     children: "Selected Work"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 422,
+                                    lineNumber: 442,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 420,
+                            lineNumber: 440,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -861,26 +881,26 @@ function Hero() {
                                                     className: "w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 transition-all duration-700 pointer-events-none"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 434,
+                                                    lineNumber: 454,
                                                     columnNumber: 41
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "w-full h-full bg-gradient-to-br from-zinc-800 to-black"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 436,
+                                                    lineNumber: 456,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 438,
+                                                    lineNumber: 458,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 432,
+                                            lineNumber: 452,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -896,14 +916,14 @@ function Hero() {
                                                                     children: project.category
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/hero/page.js",
-                                                                    lineNumber: 444,
+                                                                    lineNumber: 464,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "w-1 h-1 rounded-full bg-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/hero/page.js",
-                                                                    lineNumber: 445,
+                                                                    lineNumber: 465,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -911,13 +931,13 @@ function Hero() {
                                                                     children: project.year
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/hero/page.js",
-                                                                    lineNumber: 446,
+                                                                    lineNumber: 466,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 443,
+                                                            lineNumber: 463,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -925,13 +945,13 @@ function Hero() {
                                                             children: project.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 448,
+                                                            lineNumber: 468,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 442,
+                                                    lineNumber: 462,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -942,40 +962,40 @@ function Hero() {
                                                         className: "group-hover/btn:scale-110 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/hero/page.js",
-                                                        lineNumber: 454,
+                                                        lineNumber: 474,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 453,
+                                                    lineNumber: 473,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 441,
+                                            lineNumber: 461,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 427,
+                                    lineNumber: 447,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 425,
+                            lineNumber: 445,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 414,
+                    lineNumber: 434,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 413,
+                lineNumber: 433,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -988,28 +1008,28 @@ function Hero() {
                             className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 465,
+                            lineNumber: 485,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 466,
+                            lineNumber: 486,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 467,
+                            lineNumber: 487,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 468,
+                            lineNumber: 488,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1019,7 +1039,7 @@ function Hero() {
                                     className: "w-12 h-1 bg-orange-500 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 471,
+                                    lineNumber: 491,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1027,13 +1047,13 @@ function Hero() {
                                     children: "My Services"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 472,
+                                    lineNumber: 492,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 470,
+                            lineNumber: 490,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1059,7 +1079,7 @@ function Hero() {
                                                             children: service.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 491,
+                                                            lineNumber: 511,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1068,18 +1088,18 @@ function Hero() {
                                                                 size: 24
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/hero/page.js",
-                                                                lineNumber: 495,
+                                                                lineNumber: 515,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 494,
+                                                            lineNumber: 514,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 490,
+                                                    lineNumber: 510,
                                                     columnNumber: 37
                                                 }, this),
                                                 activeService === service.id && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1089,18 +1109,18 @@ function Hero() {
                                                         className: "text-orange-500"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/hero/page.js",
-                                                        lineNumber: 500,
+                                                        lineNumber: 520,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 499,
+                                                    lineNumber: 519,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 489,
+                                            lineNumber: 509,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1116,51 +1136,51 @@ function Hero() {
                                                                     className: "w-1 h-1 bg-orange-500 rounded-full"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/hero/page.js",
-                                                                    lineNumber: 510,
+                                                                    lineNumber: 530,
                                                                     columnNumber: 53
                                                                 }, this),
                                                                 item.trim()
                                                             ]
                                                         }, i, true, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 509,
+                                                            lineNumber: 529,
                                                             columnNumber: 49
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 507,
+                                                    lineNumber: 527,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 506,
+                                                lineNumber: 526,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 505,
+                                            lineNumber: 525,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, service.id, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 477,
+                                    lineNumber: 497,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 475,
+                            lineNumber: 495,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 464,
+                    lineNumber: 484,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 463,
+                lineNumber: 483,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1173,28 +1193,28 @@ function Hero() {
                             className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 526,
+                            lineNumber: 546,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 527,
+                            lineNumber: 547,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 528,
+                            lineNumber: 548,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 529,
+                            lineNumber: 549,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1204,7 +1224,7 @@ function Hero() {
                                     className: "w-12 h-1 bg-blue-500 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 532,
+                                    lineNumber: 552,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1212,13 +1232,13 @@ function Hero() {
                                     children: "Tech Stack"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 533,
+                                    lineNumber: 553,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 531,
+                            lineNumber: 551,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1282,7 +1302,7 @@ function Hero() {
                                             children: tech.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 550,
+                                            lineNumber: 570,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1292,12 +1312,12 @@ function Hero() {
                                                 className: "text-gray-400 group-hover:text-blue-500 transition-colors duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 553,
+                                                lineNumber: 573,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 552,
+                                            lineNumber: 572,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1305,29 +1325,29 @@ function Hero() {
                                             children: tech.desc
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 556,
+                                            lineNumber: 576,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 549,
+                                    lineNumber: 569,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 536,
+                            lineNumber: 556,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 525,
+                    lineNumber: 545,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 524,
+                lineNumber: 544,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1340,28 +1360,28 @@ function Hero() {
                             className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 567,
+                            lineNumber: 587,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 568,
+                            lineNumber: 588,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 569,
+                            lineNumber: 589,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 570,
+                            lineNumber: 590,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1371,7 +1391,7 @@ function Hero() {
                                     className: "hidden md:block w-12 h-0.5 bg-orange-500/50"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 573,
+                                    lineNumber: 593,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1379,13 +1399,13 @@ function Hero() {
                                     children: "Values & Story"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 574,
+                                    lineNumber: 594,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 572,
+                            lineNumber: 592,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1400,7 +1420,7 @@ function Hero() {
                                                 "More than just ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 580,
+                                                    lineNumber: 600,
                                                     columnNumber: 48
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1408,13 +1428,13 @@ function Hero() {
                                                     children: "lines of code."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 581,
+                                                    lineNumber: 601,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 579,
+                                            lineNumber: 599,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1426,14 +1446,14 @@ function Hero() {
                                                     children: "Sachin Jaiswal"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 584,
+                                                    lineNumber: 604,
                                                     columnNumber: 38
                                                 }, this),
                                                 "—more like a family man, friendly, hardworking, and eager to learn."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 583,
+                                            lineNumber: 603,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1441,13 +1461,13 @@ function Hero() {
                                             children: "Growing up far from the world of code, I never imagined technology would one day become my canvas. From school days filled with cricket matches, to a college journey where lines of HTML and CSS gave me goosebumps—my fascination with how things work behind the screen only grew stronger."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 586,
+                                            lineNumber: 606,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 578,
+                                    lineNumber: 598,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1460,7 +1480,7 @@ function Hero() {
                                                     className: "absolute top-8 right-8 text-orange-500/20 w-12 h-12 group-hover:text-orange-500/40 transition-colors"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 593,
+                                                    lineNumber: 613,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1472,20 +1492,20 @@ function Hero() {
                                                             children: "friends"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 595,
+                                                            lineNumber: 615,
                                                             columnNumber: 218
                                                         }, this),
                                                         ' and family, who cheered for every line of code that finally worked."'
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 594,
+                                                    lineNumber: 614,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 592,
+                                            lineNumber: 612,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1493,30 +1513,30 @@ function Hero() {
                                             children: "This is just the start of my story."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 598,
+                                            lineNumber: 618,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 591,
+                                    lineNumber: 611,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 577,
+                            lineNumber: 597,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 565,
+                    lineNumber: 585,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 564,
+                lineNumber: 584,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1532,7 +1552,7 @@ function Hero() {
                                     className: "w-12 h-1 bg-green-500 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 610,
+                                    lineNumber: 630,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1540,13 +1560,13 @@ function Hero() {
                                     children: "Friends Say"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 611,
+                                    lineNumber: 631,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 609,
+                            lineNumber: 629,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1556,14 +1576,14 @@ function Hero() {
                                     className: "absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-black to-transparent z-10"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 616,
+                                    lineNumber: 636,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black to-transparent z-10"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 617,
+                                    lineNumber: 637,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1606,14 +1626,14 @@ function Hero() {
                                                     className: "absolute -bottom-20 -left-20 w-60 h-60 bg-orange-600/20 blur-[80px] rounded-full group-hover:bg-orange-600/30 transition-all duration-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 629,
+                                                    lineNumber: 649,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$quote$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Quote$3e$__["Quote"], {
                                                     className: "absolute bottom-4 left-6 text-white/5 w-24 h-24 rotate-12"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 631,
+                                                    lineNumber: 651,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1626,7 +1646,7 @@ function Hero() {
                                                                     className: "w-1.5 h-1.5 rounded-full bg-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/hero/page.js",
-                                                                    lineNumber: 635,
+                                                                    lineNumber: 655,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1634,13 +1654,13 @@ function Hero() {
                                                                     children: "Testimonial"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/hero/page.js",
-                                                                    lineNumber: 636,
+                                                                    lineNumber: 656,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 634,
+                                                            lineNumber: 654,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1652,7 +1672,7 @@ function Hero() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 639,
+                                                            lineNumber: 659,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1665,7 +1685,7 @@ function Hero() {
                                                                         children: review.name[0]
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/hero/page.js",
-                                                                        lineNumber: 645,
+                                                                        lineNumber: 665,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1676,7 +1696,7 @@ function Hero() {
                                                                                 children: review.name
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/hero/page.js",
-                                                                                lineNumber: 649,
+                                                                                lineNumber: 669,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1684,58 +1704,58 @@ function Hero() {
                                                                                 children: review.role
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/hero/page.js",
-                                                                                lineNumber: 650,
+                                                                                lineNumber: 670,
                                                                                 columnNumber: 53
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/hero/page.js",
-                                                                        lineNumber: 648,
+                                                                        lineNumber: 668,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/hero/page.js",
-                                                                lineNumber: 644,
+                                                                lineNumber: 664,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 643,
+                                                            lineNumber: 663,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 633,
+                                                    lineNumber: 653,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 628,
+                                            lineNumber: 648,
                                             columnNumber: 33
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 619,
+                                    lineNumber: 639,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 614,
+                            lineNumber: 634,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 608,
+                    lineNumber: 628,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 607,
+                lineNumber: 627,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1748,28 +1768,28 @@ function Hero() {
                             className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 665,
+                            lineNumber: 685,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 666,
+                            lineNumber: 686,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 667,
+                            lineNumber: 687,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 668,
+                            lineNumber: 688,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1777,7 +1797,7 @@ function Hero() {
                             children: "My Pricing"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 670,
+                            lineNumber: 690,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1789,7 +1809,7 @@ function Hero() {
                                     children: "Standard"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 673,
+                                    lineNumber: 693,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1798,20 +1818,20 @@ function Hero() {
                                     children: "Premium"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 679,
+                                    lineNumber: 699,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: `absolute top-1 bottom-1 w-[calc(50%-4px)] bg-zinc-800 rounded-full transition-all duration-300 ${billingCycle === "standard" ? "left-1" : "left-[calc(50%+4px)]"}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 686,
+                                    lineNumber: 706,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 672,
+                            lineNumber: 692,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1821,7 +1841,7 @@ function Hero() {
                                     className: "absolute top-0 left-0 right-0 h-40 bg-gradient-to-b from-orange-900/20 to-transparent opacity-50"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 690,
+                                    lineNumber: 710,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1837,7 +1857,7 @@ function Hero() {
                                                             className: `w-2 h-2 rounded-full ${billingCycle === "standard" ? "bg-white" : "bg-orange-500"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 695,
+                                                            lineNumber: 715,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1845,13 +1865,13 @@ function Hero() {
                                                             children: billingCycle === "standard" ? "Standard Plan" : "Premium Plan"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 696,
+                                                            lineNumber: 716,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 694,
+                                                    lineNumber: 714,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1859,13 +1879,13 @@ function Hero() {
                                                     children: billingCycle === "standard" ? "Have design ready to build? Or small budget?" : "Need a full-scale solution from scratch?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 698,
+                                                    lineNumber: 718,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 693,
+                                            lineNumber: 713,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1876,7 +1896,7 @@ function Hero() {
                                                     children: billingCycle === "standard" ? "$5" : "$15"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 704,
+                                                    lineNumber: 724,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1884,13 +1904,13 @@ function Hero() {
                                                     children: " / hour"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 707,
+                                                    lineNumber: 727,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 703,
+                                            lineNumber: 723,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1910,7 +1930,7 @@ function Hero() {
                                                             className: "text-orange-500"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 720,
+                                                            lineNumber: 740,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1918,18 +1938,18 @@ function Hero() {
                                                             children: feature
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/hero/page.js",
-                                                            lineNumber: 721,
+                                                            lineNumber: 741,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, i, true, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 719,
+                                                    lineNumber: 739,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 710,
+                                            lineNumber: 730,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1941,25 +1961,25 @@ function Hero() {
                                                     className: "w-4 h-4 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 728,
+                                                    lineNumber: 748,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 726,
+                                            lineNumber: 746,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 692,
+                                    lineNumber: 712,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 689,
+                            lineNumber: 709,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1973,7 +1993,7 @@ function Hero() {
                                         children: "Custom Quote"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 735,
+                                        lineNumber: 755,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1982,34 +2002,34 @@ function Hero() {
                                             size: 18
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 737,
+                                            lineNumber: 757,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/hero/page.js",
-                                        lineNumber: 736,
+                                        lineNumber: 756,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/hero/page.js",
-                                lineNumber: 734,
+                                lineNumber: 754,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 733,
+                            lineNumber: 753,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 663,
+                    lineNumber: 683,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 662,
+                lineNumber: 682,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2022,28 +2042,28 @@ function Hero() {
                             className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 749,
+                            lineNumber: 769,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 750,
+                            lineNumber: 770,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 751,
+                            lineNumber: 771,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 752,
+                            lineNumber: 772,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2051,7 +2071,7 @@ function Hero() {
                             children: "FAQs"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 754,
+                            lineNumber: 774,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2089,7 +2109,7 @@ function Hero() {
                                                     children: item.q
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 769,
+                                                    lineNumber: 789,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2098,24 +2118,24 @@ function Hero() {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/hero/page.js",
-                                                        lineNumber: 771,
+                                                        lineNumber: 791,
                                                         columnNumber: 60
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/hero/page.js",
-                                                        lineNumber: 771,
+                                                        lineNumber: 791,
                                                         columnNumber: 82
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 770,
+                                                    lineNumber: 790,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 765,
+                                            lineNumber: 785,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2125,23 +2145,23 @@ function Hero() {
                                                 children: item.a
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 775,
+                                                lineNumber: 795,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 774,
+                                            lineNumber: 794,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 764,
+                                    lineNumber: 784,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 756,
+                            lineNumber: 776,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2152,7 +2172,7 @@ function Hero() {
                                     children: "Do you have any other questions?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 784,
+                                    lineNumber: 804,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2161,24 +2181,24 @@ function Hero() {
                                     children: "Ask me directly"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 785,
+                                    lineNumber: 805,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 783,
+                            lineNumber: 803,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 747,
+                    lineNumber: 767,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 746,
+                lineNumber: 766,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2191,28 +2211,28 @@ function Hero() {
                             className: "absolute top-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 794,
+                            lineNumber: 814,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 795,
+                            lineNumber: 815,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 796,
+                            lineNumber: 816,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 right-[-2.5px] w-1.5 h-1.5 bg-white opacity-80 rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 797,
+                            lineNumber: 817,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2222,7 +2242,7 @@ function Hero() {
                                     className: "w-1.5 h-1.5 rounded-full bg-orange-500"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 800,
+                                    lineNumber: 820,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2230,13 +2250,13 @@ function Hero() {
                                     children: "Contact Form"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 801,
+                                    lineNumber: 821,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 799,
+                            lineNumber: 819,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2244,7 +2264,7 @@ function Hero() {
                             children: "Contact For Work"
                         }, void 0, false, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 804,
+                            lineNumber: 824,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2267,7 +2287,7 @@ function Hero() {
                                             children: "Your E-mail"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 819,
+                                            lineNumber: 839,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2278,13 +2298,13 @@ function Hero() {
                                             required: true
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 820,
+                                            lineNumber: 840,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 818,
+                                    lineNumber: 838,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2295,7 +2315,7 @@ function Hero() {
                                             children: "Your Phone"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 824,
+                                            lineNumber: 844,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2305,13 +2325,13 @@ function Hero() {
                                             className: "w-full bg-transparent border-b border-white/10 py-4 text-white focus:outline-none focus:border-white/40 transition-colors placeholder:text-gray-700"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 825,
+                                            lineNumber: 845,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 823,
+                                    lineNumber: 843,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2322,7 +2342,7 @@ function Hero() {
                                             children: "Message"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 829,
+                                            lineNumber: 849,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2332,13 +2352,13 @@ function Hero() {
                                             className: "w-full bg-transparent border-b border-white/10 py-4 text-white focus:outline-none focus:border-white/40 transition-colors placeholder:text-gray-700 resize-none"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 830,
+                                            lineNumber: 850,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 828,
+                                    lineNumber: 848,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2349,7 +2369,7 @@ function Hero() {
                                             children: "Select your Budget"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 834,
+                                            lineNumber: 854,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2367,18 +2387,18 @@ function Hero() {
                                                     children: budget
                                                 }, budget, false, {
                                                     fileName: "[project]/src/app/hero/page.js",
-                                                    lineNumber: 837,
+                                                    lineNumber: 857,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 835,
+                                            lineNumber: 855,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 833,
+                                    lineNumber: 853,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2392,35 +2412,35 @@ function Hero() {
                                                 size: 14
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/hero/page.js",
-                                                lineNumber: 853,
+                                                lineNumber: 873,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/hero/page.js",
-                                            lineNumber: 852,
+                                            lineNumber: 872,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/hero/page.js",
-                                    lineNumber: 849,
+                                    lineNumber: 869,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/hero/page.js",
-                            lineNumber: 806,
+                            lineNumber: 826,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 792,
+                    lineNumber: 812,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 791,
+                lineNumber: 811,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -2430,18 +2450,18 @@ function Hero() {
                     children: "© 2025 Sachin Jaiswal. All rights reserved."
                 }, void 0, false, {
                     fileName: "[project]/src/app/hero/page.js",
-                    lineNumber: 862,
+                    lineNumber: 882,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/hero/page.js",
-                lineNumber: 861,
+                lineNumber: 881,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/hero/page.js",
-        lineNumber: 311,
+        lineNumber: 331,
         columnNumber: 9
     }, this);
 }
