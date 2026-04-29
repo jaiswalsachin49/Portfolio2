@@ -324,6 +324,16 @@ export default function Hero() {
             description: "Impact of Electric Vehicles on Power Grid",
             image: "Tableau/EV.png",
             link: "https://github.com/jaiswalsachin49/EV-Adoption-Trends-Grid-Impact-Matrix.git"
+        },
+        {
+            title: "Bank Marketing Data Analysis",
+            category: "Data Analytics",
+            year: "2026",
+            bgColor: "bg-[#000000]",
+            textColor: "text-orange-500",
+            description: "Analysis of Customer Data for Marketing",
+            image: "Tableau/Customer.png",
+            link: "https://github.com/Lalith0024/Section_C_Group_11_Bank_Marketing_Dataset.git"
         }
     ];
 
