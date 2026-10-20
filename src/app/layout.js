@@ -1,53 +1,58 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import Nav from "@/components/Nav";
+import CommandMenu from "@/components/CommandMenu";
+import { SITE_URL } from "@/data/site";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const description =
+  "Sachin Jaiswal — full stack developer building MERN apps, real-time products and AI agents. B.Tech (AI) student at Newton School of Technology, competitive programmer and hackathon finalist at IIT Roorkee.";
 
 export const metadata = {
-  title: "Sachin Jaiswal — Full Stack Developer & Freelancer",
-  description:
-    "Portfolio of Sachin Jaiswal, a Full Stack Developer specializing in React, Next.js, Node.js, and modern web applications. Available for freelance projects.",
+  metadataBase: new URL(SITE_URL),
+  title: "Sachin Jaiswal — Full Stack Developer",
+  description,
   keywords: [
     "Sachin Jaiswal",
     "Full Stack Developer",
-    "Freelancer",
+    "MERN Stack",
     "React Developer",
     "Next.js Developer",
-    "Web Developer Portfolio",
-    "MERN Stack",
+    "Portfolio",
   ],
   authors: [{ name: "Sachin Jaiswal" }],
   openGraph: {
-    title: "Sachin Jaiswal — Full Stack Developer & Freelancer",
-    description:
-      "Full Stack Developer specializing in React, Next.js, and modern web applications. Available for freelance projects.",
+    title: "Sachin Jaiswal — Full Stack Developer",
+    description,
     type: "website",
     locale: "en_US",
-  },
-  icons: {
-    icon: "/logo.png",
   },
 };
 
 export const viewport = {
-  themeColor: "#000000",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
+  ],
 };
+
+// Runs before paint so the saved/system theme applies without a flash.
+const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.classList.toggle('dark',t==='dark')}catch(e){}})();`;
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Nav />
+        <CommandMenu />
         {children}
+        <Analytics />
       </body>
     </html>
   );
