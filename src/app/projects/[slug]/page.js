@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
 
 function Block({ title, children }) {
   return (
-    <Reveal as="section" className="py-8">
+    <Reveal as="section" className="py-8 md:py-10">
       <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">{title}</h2>
       {children}
     </Reveal>
@@ -44,7 +44,7 @@ export default async function CaseStudy({ params }) {
 
   return (
     <>
-      <main className="mx-auto max-w-3xl px-4 pb-16 md:px-6">
+      <main className="mx-auto max-w-4xl px-4 pb-16 md:px-8">
         <div className="pt-12 md:pt-32">
           <Link href="/#projects" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground">
             <ArrowLeft size={14} /> All projects
@@ -57,8 +57,8 @@ export default async function CaseStudy({ params }) {
             <span aria-hidden>·</span>
             <span>{p.date}</span>
           </div>
-          <h1 className="text-3xl font-medium tracking-tight md:text-5xl">{p.title}</h1>
-          <p className="mt-2 text-base text-muted-foreground md:text-lg">{p.tagline}</p>
+          <h1 className="text-4xl font-medium tracking-tight md:text-6xl">{p.title}</h1>
+          <p className="mt-3 text-base text-muted-foreground md:text-xl">{p.tagline}</p>
           {(p.award || p.metric) && (
             <div className="mt-4 flex flex-wrap gap-2">
               {p.award && <AwardBadge>{p.award}</AwardBadge>}
@@ -98,7 +98,7 @@ export default async function CaseStudy({ params }) {
         )}
 
         <Block title="The problem">
-          <p className="text-sm leading-relaxed text-foreground/80 md:text-base">{cs.problem}</p>
+          <p className="text-sm leading-relaxed text-foreground/80 md:text-[17px]">{cs.problem}</p>
         </Block>
 
         <Block title="How it works">
@@ -116,7 +116,7 @@ export default async function CaseStudy({ params }) {
         </Block>
 
         <Block title="What I built">
-          <ul className="space-y-2 text-sm leading-relaxed text-foreground/80 md:text-base">
+          <ul className="space-y-2 text-sm leading-relaxed text-foreground/80 md:text-[17px]">
             {cs.built.map((b) => (
               <li key={b} className="flex gap-3">
                 <span className="mt-2.5 size-1 shrink-0 rounded-full bg-accent" aria-hidden />
@@ -129,9 +129,9 @@ export default async function CaseStudy({ params }) {
         <Block title="Highlights">
           <div className="grid gap-3 sm:grid-cols-3">
             {cs.highlights.map((h) => (
-              <div key={h.title} className="rounded-xl border border-border p-4">
+              <div key={h.title} className="spotlight rounded-xl border border-border p-4 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 md:p-5">
                 <div className="text-sm font-semibold">{h.title}</div>
-                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{h.body}</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground md:text-[15px]">{h.body}</p>
               </div>
             ))}
           </div>
@@ -147,7 +147,7 @@ export default async function CaseStudy({ params }) {
 
         <Link
           href={`/projects/${next.slug}`}
-          className="group mt-6 flex items-center justify-between rounded-xl border border-border p-5 transition-all hover:border-foreground/25 hover:shadow-md"
+          className="spotlight group mt-6 flex items-center justify-between rounded-xl border border-border p-5 transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:shadow-lg md:p-6"
         >
           <div>
             <div className="text-xs text-muted-foreground">Next case study</div>

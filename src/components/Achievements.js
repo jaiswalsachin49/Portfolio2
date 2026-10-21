@@ -56,15 +56,15 @@ export default function Achievements({ wins, others }) {
 
   return (
     <>
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="grid gap-3 sm:grid-cols-2 md:gap-4">
         {wins.map((a) => (
           <button
             key={a.title}
             type="button"
             onClick={() => setOpen(a)}
-            className="group flex gap-3 rounded-xl border border-border p-3 text-left transition-all hover:border-foreground/25 hover:shadow-md"
+            className="reveal spotlight group flex gap-3 rounded-xl border border-border p-3 text-left transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:shadow-lg md:gap-4 md:p-4"
           >
-            <div className="relative aspect-[1600/1133] w-24 shrink-0 overflow-hidden rounded-md border border-border bg-muted">
+            <div className="relative aspect-[1600/1133] w-24 shrink-0 overflow-hidden rounded-md md:w-32 border border-border bg-muted">
               {/* Pre-sized static thumbnail, served as-is (no on-the-fly optimisation). */}
               <Image
                 src={a.certificate.replace("/certificates/", "/certificates/thumbs/")}
@@ -77,10 +77,10 @@ export default function Achievements({ wins, others }) {
             <div className="min-w-0 flex-1">
               <div className="flex items-start gap-1.5">
                 <Award size={14} className="mt-0.5 shrink-0 text-accent" />
-                <span className="text-sm font-semibold leading-snug">{a.title}</span>
+                <span className="text-sm font-semibold leading-snug md:text-base">{a.title}</span>
               </div>
-              <div className="mt-1 text-xs text-muted-foreground">{a.event}</div>
-              <div className="mt-1 flex items-center gap-2 text-[11px] text-muted-foreground">
+              <div className="mt-1 text-xs text-muted-foreground md:text-sm">{a.event}</div>
+              <div className="mt-1 flex items-center gap-2 text-[11px] text-muted-foreground md:mt-2 md:text-xs">
                 <span className="tabular-nums">{a.date}</span>
                 <span aria-hidden>·</span>
                 <span className="underline-offset-2 group-hover:text-foreground group-hover:underline">View certificate</span>
@@ -104,12 +104,12 @@ export default function Achievements({ wins, others }) {
 
       <ul className="mt-6 divide-y divide-border rounded-xl border border-border">
         {others.map((a) => (
-          <li key={a.title} className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 px-4 py-3">
+          <li key={a.title} className="reveal flex flex-wrap items-center justify-between gap-x-4 gap-y-1 px-4 py-3 md:px-6 md:py-4">
             <div className="min-w-0">
-              <span className="text-sm font-medium">{a.title}</span>
-              <span className="text-sm text-muted-foreground"> — {a.event}</span>
+              <span className="text-sm font-medium md:text-base">{a.title}</span>
+              <span className="text-sm text-muted-foreground md:text-base"> — {a.event}</span>
             </div>
-            <div className="flex items-center gap-3 text-xs text-muted-foreground">
+            <div className="flex items-center gap-3 text-xs text-muted-foreground md:text-sm">
               {a.date && <span className="tabular-nums">{a.date}</span>}
               {a.certificate && (
                 <button
