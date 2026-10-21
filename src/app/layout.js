@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Nav from "@/components/Nav";
 import CommandMenu from "@/components/CommandMenu";
+import Motion from "@/components/Motion";
 import { SITE_URL } from "@/data/site";
 import "./globals.css";
 
@@ -40,7 +41,7 @@ export const viewport = {
 };
 
 // Runs before paint so the saved/system theme applies without a flash.
-const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.classList.toggle('dark',t==='dark')}catch(e){}})();`;
+const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.classList.toggle('dark',t==='dark')}catch(e){}document.documentElement.classList.add('js')})();`;
 
 export default function RootLayout({ children }) {
   return (
@@ -49,9 +50,11 @@ export default function RootLayout({ children }) {
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="scroll-progress" aria-hidden />
         <Nav />
         <CommandMenu />
         {children}
+        <Motion />
         <Analytics />
       </body>
     </html>

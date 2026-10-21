@@ -89,15 +89,103 @@ body {
 }
 
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(12px); }
+  from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: none; }
 }
 .animate-fade-up {
-  animation: fade-up 0.6s ease both;
+  animation: fade-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* Hero name: each word un-blurs into place */
+@keyframes blur-in {
+  from { opacity: 0; filter: blur(10px); transform: translateY(14px); }
+  to { opacity: 1; filter: none; transform: none; }
+}
+.animate-blur-in {
+  display: inline-block;
+  animation: blur-in 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* Slow drifting glow behind the hero */
+@keyframes drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(40px, 20px) scale(1.1); }
+}
+.animate-drift {
+  animation: drift 14s ease-in-out infinite;
+}
+
+/* Thin accent bar at the top showing scroll progress */
+.scroll-progress {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 50;
+  height: 2px;
+  background: var(--accent);
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+}
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    animation: grow linear both;
+    animation-timeline: scroll(root);
+  }
+  /* Section heading rule draws itself as the heading scrolls in */
+  .rule-grow {
+    transform-origin: 0 50%;
+    animation: grow linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 35%;
+  }
+}
+@keyframes grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+/* Soft glow that follows the cursor (position set by components/Motion.js) */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+.spotlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background: radial-gradient(
+    360px circle at var(--mx, 50%) var(--my, 50%),
+    color-mix(in oklab, var(--accent) 12%, transparent),
+    transparent 65%
+  );
+}
+.spotlight:hover::before {
+  opacity: 1;
+}
+
+/* Contribution graph fills in week by week once it is on screen.
+   Only hidden when JS has run (html.js), so it never stays invisible. */
+.js [data-animate]:not([data-inview]) .hm-col {
+  opacity: 0;
+  transform: translateY(6px);
+}
+.hm-col {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition-delay: calc(var(--i, 0) * 14ms);
 }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .reveal { animation: none; }
-  .animate-fade-up { animation: none; }
+  .reveal,
+  .animate-fade-up,
+  .animate-blur-in,
+  .animate-drift,
+  .rule-grow { animation: none; }
+  .scroll-progress { display: none; }
+  .hm-col { transition: none; }
+  .js [data-animate]:not([data-inview]) .hm-col { opacity: 1; transform: none; }
 }

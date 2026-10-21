@@ -5,7 +5,7 @@ import { GithubIcon } from "./BrandIcons";
 
 export function Tag({ children }) {
   return (
-    <span className="rounded-md border border-border px-1.5 py-0.5 font-mono text-[11px] text-muted-foreground">
+    <span className="rounded-md border border-border px-1.5 py-0.5 font-mono text-[11px] text-muted-foreground md:text-xs">
       {children}
     </span>
   );
@@ -18,9 +18,9 @@ export function ProjectLinks({ project }) {
       {caseStudy && (
         <Link
           href={`/projects/${slug}`}
-          className="inline-flex items-center gap-1 rounded-md bg-foreground px-2.5 py-1 text-xs font-medium text-background transition-opacity hover:opacity-85"
+          className="group/cs inline-flex items-center gap-1 rounded-md bg-foreground px-2.5 py-1 text-xs font-medium text-background transition-opacity hover:opacity-85 md:px-3 md:py-1.5 md:text-sm"
         >
-          Case study <ArrowRight size={12} />
+          Case study <ArrowRight size={12} className="transition-transform group-hover/cs:translate-x-0.5" />
         </Link>
       )}
       {links.live && (
@@ -28,7 +28,7 @@ export function ProjectLinks({ project }) {
           href={links.live}
           target="_blank"
           rel="noopener noreferrer"
-          className={`inline-flex items-center gap-1 rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${
+          className={`inline-flex items-center gap-1 rounded-md px-2.5 py-1 text-xs font-medium transition-colors md:px-3 md:py-1.5 md:text-sm ${
             caseStudy
               ? "border border-border text-muted-foreground hover:text-foreground"
               : "bg-foreground text-background hover:opacity-85"
@@ -42,7 +42,7 @@ export function ProjectLinks({ project }) {
           href={links.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 rounded-md border border-border px-2.5 py-1 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+          className="inline-flex items-center gap-1 rounded-md border border-border px-2.5 py-1 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground md:px-3 md:py-1.5 md:text-sm"
         >
           <GithubIcon size={12} /> Code
         </a>
@@ -52,7 +52,7 @@ export function ProjectLinks({ project }) {
 }
 
 // Screenshot when there is one; otherwise a typographic cover in the site's style.
-export function ProjectCover({ project, priority = false, sizes = "(min-width: 768px) 360px, 100vw", className = "" }) {
+export function ProjectCover({ project, priority = false, sizes = "(min-width: 1024px) 480px, (min-width: 640px) 50vw, 100vw", className = "" }) {
   if (project.image) {
     return (
       <Image
@@ -61,7 +61,7 @@ export function ProjectCover({ project, priority = false, sizes = "(min-width: 7
         fill
         priority={priority}
         sizes={sizes}
-        className={`object-cover object-top transition-transform duration-500 group-hover:scale-[1.03] ${className}`}
+        className={`object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.05] ${className}`}
       />
     );
   }
@@ -98,7 +98,7 @@ export default function ProjectCard({ project, priority = false }) {
   const external = !caseStudy;
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all duration-200 hover:border-foreground/25 hover:shadow-md">
+    <article className="reveal spotlight group flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-accent/40 hover:shadow-xl hover:shadow-accent/5">
       <a
         href={href}
         {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
@@ -108,15 +108,15 @@ export default function ProjectCard({ project, priority = false }) {
       >
         <ProjectCover project={project} priority={priority} />
       </a>
-      <div className="flex flex-1 flex-col gap-3 p-4">
+      <div className="flex flex-1 flex-col gap-3 p-4 md:gap-4 md:p-6">
         <div>
           <div className="mb-1 flex items-center gap-2 text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
             <span>{category}</span>
             <span aria-hidden>·</span>
             <span className="tabular-nums">{date}</span>
           </div>
-          <h3 className="text-[15px] font-semibold leading-snug">{title}</h3>
-          <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{description}</p>
+          <h3 className="text-[15px] font-semibold leading-snug md:text-xl">{title}</h3>
+          <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground md:mt-2 md:text-[15px]">{description}</p>
           {(award || metric) && (
             <div className="mt-2.5 flex flex-wrap gap-1.5">
               {award && <AwardBadge>{award.split(" · ")[0]}</AwardBadge>}
