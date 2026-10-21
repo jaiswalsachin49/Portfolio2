@@ -49,6 +49,11 @@ function Hero() {
         aria-hidden
       />
       <div
+        data-dots
+        className="dot-glow pointer-events-none absolute inset-x-[-50vw] top-0 -z-10 h-[520px] motion-reduce:hidden"
+        aria-hidden
+      />
+      <div
         className="animate-drift pointer-events-none absolute -top-10 right-0 -z-10 size-72 rounded-full bg-accent/15 blur-3xl md:size-96"
         aria-hidden
       />

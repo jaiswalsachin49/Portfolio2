@@ -54,7 +54,11 @@ export default async function GitHubActivity({ user }) {
   const busiest = stats.days.reduce((a, b) => (b.count > a.count ? b : a));
 
   return (
-    <div className="reveal rounded-2xl border border-border p-4 md:p-8">
+    <div className="reveal spotlight relative overflow-hidden rounded-2xl border border-border p-4 md:p-8">
+      <div
+        className="dot-grid pointer-events-none absolute inset-0 -z-10 opacity-70 [mask-image:radial-gradient(ellipse_40%_70%_at_100%_0%,black,transparent)]"
+        aria-hidden
+      />
       <div className="mb-6 grid grid-cols-2 gap-4 sm:grid-cols-4 md:mb-8">
         <Stat value={stats.total.toLocaleString("en-US")} label="contributions this year" />
         <Stat value={`${stats.current}d`} label="current streak" />
@@ -70,7 +74,7 @@ export default async function GitHubActivity({ user }) {
             const showMonth = first && new Date(first.date + "T00:00:00Z").getUTCDate() <= 7;
             return (
               <div key={wi} className="hm-col flex flex-col gap-[2px] md:gap-[3px]" style={{ "--i": wi }}>
-                <div className="h-3 text-[9px] leading-3 text-muted-foreground md:h-4 md:text-[11px]">
+                <div className="h-3 w-0 overflow-visible whitespace-nowrap text-[9px] leading-3 text-muted-foreground md:h-4 md:text-[11px]">
                   {showMonth ? MONTHS[new Date(first.date + "T00:00:00Z").getUTCMonth()] : ""}
                 </div>
                 {Array.from({ length: 7 }, (_, di) => {

@@ -71,7 +71,7 @@ export const education = [
     degree: "B.Tech, Artificial Intelligence",
     period: "2024 — 2028",
     location: "Sonipat, Haryana",
-    note: "CGPA 7.88 / 10",
+    note: "CGPA 7 / 10",
   },
 ];
 

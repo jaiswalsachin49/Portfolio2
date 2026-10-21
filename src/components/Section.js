@@ -8,7 +8,7 @@ export default function Section({ id, index, title, action, children }) {
           {index && <span className="font-mono text-xs font-normal text-accent md:text-sm">{index}</span>}
           {title}
         </h2>
-        <span className="rule-grow h-px flex-1 bg-border" aria-hidden />
+        <span className="rule-grow dot-rule flex-1" aria-hidden />
         {action}
       </Reveal>
       {children}

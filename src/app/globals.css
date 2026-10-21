@@ -163,8 +163,38 @@ body {
     transparent 65%
   );
 }
-.spotlight:hover::before {
+/* Orange dots that show up only around the cursor */
+.spotlight::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background-image: radial-gradient(color-mix(in oklab, var(--accent) 60%, transparent) 1px, transparent 1.2px);
+  background-size: 14px 14px;
+  mask-image: radial-gradient(160px circle at var(--mx, 50%) var(--my, 50%), black, transparent);
+}
+.spotlight:hover::before,
+.spotlight:hover::after {
   opacity: 1;
+}
+
+/* Hero: accent dots lit up around the cursor, on top of the grey grid */
+.dot-glow {
+  background-image: radial-gradient(var(--accent) 1.2px, transparent 1.4px);
+  background-size: 14px 14px;
+  mask-image: radial-gradient(220px circle at var(--mx, -999px) var(--my, -999px), black, transparent);
+  transition: opacity 0.4s;
+}
+
+/* Dotted rule next to section headings */
+.dot-rule {
+  height: 2px;
+  background-image: radial-gradient(circle, color-mix(in oklab, var(--foreground) 30%, transparent) 1px, transparent 1.2px);
+  background-size: 8px 2px;
 }
 
 /* Contribution graph fills in week by week once it is on screen.
